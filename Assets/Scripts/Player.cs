@@ -5,14 +5,11 @@ using Sirenix.OdinInspector;
 
 public class Player : MovingEntity
 {
-    [SerializeField] private WorldManager worldManager;
-    [SerializeField] private Animator animator;
 
     [Header("Base Components")]
     public Vector2 controlInput;
     public bool desiredJump;
     [HideInInspector] private Transform camTransform;
-    [HideInInspector] private Camera mainCam;
 
     [Header("Stats")]
     [SerializeField] private float speed = 1f;
@@ -22,14 +19,6 @@ public class Player : MovingEntity
     [Header("SafeZone")]
     [SerializeField] private Vector3 lastSafePos;
     [SerializeField] private List<TriggerSafeZone> safeAreaList;
-
-    [Header("Animation")]
-    [SerializeField, ReadOnly()] private AnimatorStateInfo currentAnimState;
-    [SerializeField, ReadOnly()] private string currentAnim;
-    [SerializeField, ReadOnly()] private bool isAttacking;
-    public const string IDLE_ANIM = "idle";
-    public const string RUN_ANIM = "walk";
-    public const string ATTACK_ANIM = "attack";
 
     [Header("Sound")]
     [SerializeField] private AudioSource audioSource;
@@ -45,41 +34,11 @@ public class Player : MovingEntity
     [SerializeField] private Vector3 velocity;
     public bool InMenu => worldManager && worldManager.Game && worldManager.Game.InMenu;
 
-
-    private void Start()
-    {
-        Init();
-    }
-
-    public void Init()
-    {
-        mainCam = Camera.main;
-    }
-
     public void Teleport(Vector3 pos)
     {
         rb2.position = pos;
     }
 
-    private void Update()
-    {
-        if(animator)
-        {
-            currentAnimState = animator.GetCurrentAnimatorStateInfo(0);
-
-
-            if (currentAnimState.IsName(IDLE_ANIM) || currentAnimState.IsName(RUN_ANIM))
-            {
-                currentAnim = "still";
-                isAttacking = false;
-            }
-            else
-            {
-                isAttacking = true;
-                currentAnim = ATTACK_ANIM;
-            }
-        }
-    }
 
     private void FixedUpdate()
     {
@@ -93,7 +52,7 @@ public class Player : MovingEntity
         }
         */
         velocity = rb2.linearVelocity;
-        bool isNotMoving = controlInput.magnitude < 0.1f || InMenu;
+        bool isNotMoving = controlInput.magnitude < 0.1f || InMenu || Attacking;
 
         if (isNotMoving)
         {
@@ -104,12 +63,13 @@ public class Player : MovingEntity
             // Should not be addition -> Should be capped
             //velocity = Vector3.Lerp(velocity, FollowingCamAngle(controlInput) * speed, 0.01f);
 
-            desiredVelocity = FollowingCamAngle(controlInput) * speed;
+            desiredVelocity = FollowingCamAngle(controlInput) * speed * Time.fixedDeltaTime;
             desiredVelocity.y *= speedVMultiplier;
             velocity = desiredVelocity;
 
-            if(animator && Mathf.Abs(velocity.x) > 0.1f) // If is moving horizontally
+            if(animator && Mathf.Abs(velocity.x) > 0.1f && !Attacking) // If is moving horizontally
             {
+                // Flip
                 animator.transform.localScale = new Vector3(velocity.x > 0f ? -1f : 1f, 1f, 1f);
             }
 
@@ -133,22 +93,6 @@ public class Player : MovingEntity
     public Vector3 FollowingCamAngle(Vector2 input)
     {
         return new Vector3(input.x, input.y, 0f);
-
-        if (!mainCam) Init();
-        if (camTransform == null) camTransform = mainCam.transform;
-
-        // 2D mode
-
-        Vector3 forward = camTransform.forward;
-        Vector3 right = camTransform.right;
-
-        forward.y = 0f;
-        right.y = 0f;
-        forward.Normalize();
-        right.Normalize();
-
-        Vector3 dir = forward * input.y + right * input.x;
-        return dir;
     }
 
 
@@ -165,11 +109,14 @@ public class Player : MovingEntity
     // Attack
     #region Attack
 
+    /*
+    // In child class
     public void Attack()
     {
         animator.SetTrigger("attack");
         isAttacking = true;
     }
+    */
 
     public void HeavyAttack() // Maybe?
     {
@@ -182,6 +129,11 @@ public class Player : MovingEntity
     }
 
     #endregion Attack
+
+    public override void Dead()
+    {
+        worldManager.LooseGame();
+    }
 
     #region SafeZone
     public void AddTriggerZone(TriggerSafeZone safeZone)

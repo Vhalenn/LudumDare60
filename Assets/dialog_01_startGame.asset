@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a182d739c2d144980a494ec3bd0d42, type: 3}
+  m_Name: dialog_01_startGame
+  m_EditorClassIdentifier: Assembly-CSharp::DialogData
+  array:
+  - speakerNameFr: Professeur
+    speakerNameEn: Teacher
+    dialogFr: "Arr\xEAtez! C'est de la folie!! Nous ne pouvons pas vous laisser continuer comme \xE7a!"
+    dialogEn: 
+    sprite: {fileID: 1142424706, guid: e19bc265341249f4a907cf8084585009, type: 3}
+  - speakerNameFr: ???
+    speakerNameEn: ???
+    dialogFr: "Hehehe un pas de plus et vous aurez une r\xE9ponse proOOpoOOrtionelle!\nTendu, tendu les tirs les gars!"
+    dialogEn: 
+    sprite: {fileID: 780981704, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}

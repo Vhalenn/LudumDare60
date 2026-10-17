@@ -8,6 +8,7 @@ public class CanvasManager : MonoBehaviour
     public Canvas mainCanvas;
     public Canvas pauseCanvas;
     public UI_EndScreen endScreen;
+    public UI_DialogManager dialogManager;
 
 
     private void Start()
@@ -50,4 +51,31 @@ public class CanvasManager : MonoBehaviour
     {
         
     }
+
+    #region Dialog
+
+    public void StartDialog(DialogData dialog)
+    {
+        if (!dialogManager)
+        {
+            Debug.LogError("No dialog manager referenced!");
+            return;
+        }
+
+        dialogManager.StartDialog(dialog);
+
+    }
+
+    public void ProgresInDialog()
+    {
+        if (!dialogManager)
+        {
+            Debug.LogError("No dialog manager referenced!");
+            return;
+        }
+
+        dialogManager.ProgresInDialog();
+    }
+
+    #endregion Dialog
 }

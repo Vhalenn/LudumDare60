@@ -15,11 +15,23 @@ public class TriggerActionZone : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player")) return;
+        TriggerEnter();
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player")) return;
         TriggerEnter();
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player")) return;
+        TriggerExit();
     }
 
     private void OnTriggerExit(Collider other)

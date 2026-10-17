@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: e272b1264b7e24345b7c75716a0ccc9d
+guid: f7861c65fbd309840a8d103572762951
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2130903805209672371
-    second: Sega Genesis - Streets of Rage 2 - Stages - Stage 1 (Part 1)_0
+      213: -5166987181265202058
+    second: enviro_Stage 1 (Part 1)_0
+  - first:
+      213: 7123090609092868674
+    second: enviro_Stage 1 (Part 1)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,23 +40,23 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationMethod: 0
@@ -74,7 +77,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -115,67 +118,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Stages - Stage 1 (Part 1)_0
+      name: enviro_Stage 1 (Part 1)_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 120
-        width: 504
-        height: 216
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4503f777428d62e0800000000000000
-      internalID: -2130903805209672371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Stages - Stage 1 (Part 1)_1
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 110
-        width: 3032
-        height: 504
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd116701a84e6b943aa1de884a88f2f2
-      internalID: 9418317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Stages - Stage 1 (Part 1)_2
-      rect:
-        serializedVersion: 2
-        x: 2984
-        y: 396
-        width: 23
-        height: 38
+        x: 10
+        y: 119
+        width: 506
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4f817ba0d4e79e24c85d3ebefeaa2a93
-      internalID: -318327254
+      spriteID: 674d0b5d88c2b48b0800000000000000
+      internalID: -5166987181265202058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage 1 (Part 1)_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 109
+        width: 3034
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ab6e15b2d4ad260800000000000000
+      internalID: 7123090609092868674
       vertices: []
       indices: 
       edges: []
@@ -184,7 +165,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0844358c55658e846a6b906c20eb2e60
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -192,13 +173,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Sega Genesis - Streets of Rage 2 - Stages - Stage 1 (Part 1)_0: -2130903805209672371
-      Sega Genesis - Streets of Rage 2 - Stages - Stage 1 (Part 1)_1: 9418317
-      Sega Genesis - Streets of Rage 2 - Stages - Stage 1 (Part 1)_2: -318327254
+      enviro_Stage 1 (Part 1)_0: -5166987181265202058
+      enviro_Stage 1 (Part 1)_1: 7123090609092868674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

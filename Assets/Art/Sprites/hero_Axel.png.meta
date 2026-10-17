@@ -753,7 +753,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_29
+      name: axel_hurted_00
       rect:
         serializedVersion: 2
         x: 8
@@ -775,13 +775,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_30
+      name: axel_hurted_01
       rect:
         serializedVersion: 2
         x: 72
         y: 720
         width: 63
-        height: 75
+        height: 77
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -803,7 +803,7 @@ TextureImporter:
         x: 144
         y: 720
         width: 56
-        height: 70
+        height: 80
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -847,7 +847,7 @@ TextureImporter:
         x: 256
         y: 720
         width: 59
-        height: 78
+        height: 80
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1199,7 +1199,7 @@ TextureImporter:
         x: 336
         y: 496
         width: 51
-        height: 109
+        height: 113
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1221,7 +1221,7 @@ TextureImporter:
         x: 401
         y: 496
         width: 51
-        height: 104
+        height: 113
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1237,35 +1237,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_51
-      rect:
-        serializedVersion: 2
-        x: 407
-        y: 578
-        width: 15
-        height: 30
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 426e69a778c3b524b8745dd170bc3f77
-      internalID: -797017077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_52
       rect:
         serializedVersion: 2
         x: 464
         y: 496
         width: 51
-        height: 99
+        height: 114
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1287,7 +1265,7 @@ TextureImporter:
         x: 8
         y: 496
         width: 73
-        height: 48
+        height: 103
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1309,7 +1287,7 @@ TextureImporter:
         x: 88
         y: 496
         width: 73
-        height: 48
+        height: 101
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1331,7 +1309,7 @@ TextureImporter:
         x: 168
         y: 496
         width: 73
-        height: 69
+        height: 99
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1353,7 +1331,7 @@ TextureImporter:
         x: 248
         y: 496
         width: 78
-        height: 77
+        height: 98
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1479,35 +1457,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_62
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 471
-        width: 14
-        height: 13
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f0e64912d4485441b304454fec49696
-      internalID: 2102870091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_63
       rect:
         serializedVersion: 2
-        x: 574
+        x: 564
         y: 400
-        width: 40
-        height: 75
+        width: 50
+        height: 85
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1949,7 +1905,7 @@ TextureImporter:
         width: 96
         height: 60
       alignment: 9
-      pivot: {x: 0.5, y: 0.02}
+      pivot: {x: 0.5888421, y: 0.02284317}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1963,37 +1919,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_84
-      rect:
-        serializedVersion: 2
-        x: 376
-        y: 218
-        width: 8
-        height: 7
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1231953d2214d24da25c7610403607b
-      internalID: 1223352026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_85
       rect:
         serializedVersion: 2
-        x: 388
+        x: 375
         y: 184
-        width: 84
+        width: 97
         height: 60
       alignment: 9
-      pivot: {x: 0.5, y: 0.02}
+      pivot: {x: 0.5902515, y: 0.023432922}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2015,7 +1949,7 @@ TextureImporter:
         width: 84
         height: 60
       alignment: 9
-      pivot: {x: 0.5, y: 0.02}
+      pivot: {x: 0.5287919, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2029,57 +1963,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_87
-      rect:
-        serializedVersion: 2
-        x: 379
-        y: 210
-        width: 5
-        height: 6
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d2a96168f6d4274d9106094cb8168b3
-      internalID: 409966277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_88
-      rect:
-        serializedVersion: 2
-        x: 376
-        y: 205
-        width: 14
-        height: 4
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5efa961ae6a6b8c408e979c46a9657cc
-      internalID: -1078467327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_89
       rect:
         serializedVersion: 2
         x: 8
         y: 96
         width: 39
-        height: 63
+        height: 80
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2101,7 +1991,7 @@ TextureImporter:
         x: 56
         y: 96
         width: 27
-        height: 79
+        height: 80
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2123,7 +2013,7 @@ TextureImporter:
         x: 96
         y: 96
         width: 45
-        height: 64
+        height: 77
       alignment: 9
       pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2139,7 +2029,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_92
+      name: axel_Dead_00
       rect:
         serializedVersion: 2
         x: 152
@@ -2147,7 +2037,7 @@ TextureImporter:
         width: 50
         height: 77
       alignment: 9
-      pivot: {x: 0.5, y: 0.02}
+      pivot: {x: 0.55, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2161,15 +2051,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_93
+      name: axel_Dead_01
       rect:
         serializedVersion: 2
         x: 216
         y: 96
         width: 67
-        height: 53
+        height: 77
       alignment: 9
-      pivot: {x: 0.5, y: 0.02}
+      pivot: {x: 0.1, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2205,7 +2095,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_95
+      name: axel_Dead_02
       rect:
         serializedVersion: 2
         x: 384
@@ -2213,7 +2103,7 @@ TextureImporter:
         width: 87
         height: 28
       alignment: 9
-      pivot: {x: 0.5, y: 0.02}
+      pivot: {x: 0.1, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2227,7 +2117,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_96
+      name: axel_Dead_03
       rect:
         serializedVersion: 2
         x: 480
@@ -2235,7 +2125,7 @@ TextureImporter:
         width: 70
         height: 40
       alignment: 9
-      pivot: {x: 0.5, y: 0.02}
+      pivot: {x: 0.2, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2249,7 +2139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_97
+      name: axel_Dead_04
       rect:
         serializedVersion: 2
         x: 560
@@ -2257,7 +2147,7 @@ TextureImporter:
         width: 45
         height: 51
       alignment: 9
-      pivot: {x: 0.5, y: 0.02}
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2266,182 +2156,6 @@ TextureImporter:
       bones: []
       spriteID: a69513fed76816840811619222e655a4
       internalID: 279286741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_98
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 86
-        width: 6
-        height: 7
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5dcbb3130f90a7428d709e178a4f1ca
-      internalID: -497854508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_99
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 86
-        width: 5
-        height: 8
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcf649a09c64acb43b91776a0e0392c7
-      internalID: -274500167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_100
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 86
-        width: 5
-        height: 7
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48a5f2bb7bd5be24a94c24e3e4c6af6c
-      internalID: -224072233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_101
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 86
-        width: 6
-        height: 8
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd19ee4826df212499d915e8949c3375
-      internalID: -592550691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_102
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 86
-        width: 15
-        height: 6
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04cb76d9008044e4eadf00c4afe9c6cd
-      internalID: 1579050732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_103
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 8
-        width: 70
-        height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0594f1ca1e1b4db49ab34be48c22bb98
-      internalID: -320784436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_104
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 8
-        width: 41
-        height: 51
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ba2c32f6ecd7fe47bf76f49780b9586
-      internalID: 2111341454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_105
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 8
-        width: 39
-        height: 75
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96c5f276ceffb354c85004c471b77be1
-      internalID: 2108260930
       vertices: []
       indices: 
       edges: []
@@ -2464,94 +2178,6 @@ TextureImporter:
       bones: []
       spriteID: 5aa9c6dd6478f5e40a5eca2ed9ac48ae
       internalID: 1142424706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_107
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 8
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7af0386a41d487489a9e5af2763768b
-      internalID: -339026261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_108
-      rect:
-        serializedVersion: 2
-        x: 328
-        y: 8
-        width: 65
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b21c189cd5c62934385ea31d2fa567c9
-      internalID: 740346951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_109
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 8
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c7aa68e029b435468526adcc3e4c063
-      internalID: -908464361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_110
-      rect:
-        serializedVersion: 2
-        x: 470
-        y: 30
-        width: 197
-        height: 52
-      alignment: 9
-      pivot: {x: 0.5, y: 0.02}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55f3f4dbb3f77a549972536fb6d53511
-      internalID: -1676653612
       vertices: []
       indices: 
       edges: []
@@ -2596,8 +2222,6 @@ TextureImporter:
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_26: 52596230
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_27: 176406005
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_28: -1628912566
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_29: 486957449
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_30: 558955818
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_31: -1366510465
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_32: 2141394629
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_33: 2097193188
@@ -2659,14 +2283,16 @@ TextureImporter:
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_89: 665864056
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_90: -1127257511
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_91: -1892093675
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_92: -1785130815
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_93: 1521514978
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_94: -691709500
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_95: 253273082
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_96: 2127988620
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_97: 279286741
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_98: -497854508
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_99: -274500167
+      axel_Dead_00: -1785130815
+      axel_Dead_01: 1521514978
+      axel_Dead_02: 253273082
+      axel_Dead_03: 2127988620
+      axel_Dead_04: 279286741
+      axel_hurted_00: 486957449
+      axel_hurted_01: 558955818
       axel_idle_00: 8154652763854422847
       axel_idle_01: 955488711
       axel_idle_02: -2061151101
@@ -2683,6 +2309,7 @@ TextureImporter:
       axel_walk_03: 707471250
       axel_walk_04: -2135205634
       axel_walk_05: -1861015294
+      hero_Axel_0: 1601459950
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

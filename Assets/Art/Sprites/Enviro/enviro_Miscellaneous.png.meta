@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: a7fe72df72484c244905938d0bba61bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5384790288046438694
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_0
+  - first:
+      213: 496876434348376018
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_1
+  - first:
+      213: -9052930996073997270
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_2
+  - first:
+      213: 8350915654985901774
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_3
+  - first:
+      213: -8299104954149736121
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_4
+  - first:
+      213: -2946538800988635438
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_5
+  - first:
+      213: -7143236439917786650
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_6
+  - first:
+      213: 4144918535173944887
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_7
+  - first:
+      213: 7785947598376191552
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_8
+  - first:
+      213: -3830995498609289652
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_9
+  - first:
+      213: 9210981479425561714
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_10
+  - first:
+      213: 3183068070720882013
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_11
+  - first:
+      213: -1055788721748548240
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_12
+  - first:
+      213: 90637661276395039
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_13
+  - first:
+      213: 4968696083037178859
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_14
+  - first:
+      213: -4421429221949965398
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_15
+  - first:
+      213: 6879516927534948194
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_16
+  - first:
+      213: -6887861493086976812
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_17
+  - first:
+      213: 7703491096740275760
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_18
+  - first:
+      213: -2155013331934058904
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_19
+  - first:
+      213: 1988471542804361192
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_20
+  - first:
+      213: 5042509315366044355
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_21
+  - first:
+      213: -7723800896414861297
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_22
+  - first:
+      213: -9001987273242124259
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_23
+  - first:
+      213: -4588354617890220052
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_24
+  - first:
+      213: 7989691906974527684
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_25
+  - first:
+      213: -7100700928933900752
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_26
+  - first:
+      213: -3055074024778304301
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_27
+  - first:
+      213: -5765926462308655106
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_28
+  - first:
+      213: -1261730255122383145
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_29
+  - first:
+      213: -1958373503553840952
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_30
+  - first:
+      213: 6222759872911539731
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_31
+  - first:
+      213: -355038907308890195
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_32
+  - first:
+      213: 8249670024432029251
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_33
+  - first:
+      213: 1013961991926979393
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_34
+  - first:
+      213: 4219576160641135437
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_35
+  - first:
+      213: -412730083113130910
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_36
+  - first:
+      213: 4839378911848131561
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_37
+  - first:
+      213: -5338565893651996693
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_38
+  - first:
+      213: -1382933414218185604
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_39
+  - first:
+      213: -3733520510805901228
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_40
+  - first:
+      213: 939688793232137388
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_41
+  - first:
+      213: -8069024620245629597
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_42
+  - first:
+      213: 7956313313355693126
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_43
+  - first:
+      213: 8168183198568518335
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_44
+  - first:
+      213: 124548610343402763
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_45
+  - first:
+      213: 5023961321796327190
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_46
+  - first:
+      213: 864207527040807887
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_47
+  - first:
+      213: -7516267926179322894
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_48
+  - first:
+      213: 1726915339812197857
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_49
+  - first:
+      213: -3126079903502152727
+    second: Sega Genesis - Streets of Rage 2 - Miscellaneous - Miscellaneous_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 300
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcf2963ebbdcdc438651ce734a735b5
+      internalID: -2064795464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 300
+        width: 32
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7484cd2b83a964dafce74a0d282933
+      internalID: -453135550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 300
+        width: 32
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6149901e29bad46980377a99f06729
+      internalID: -1104491790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 300
+        width: 31
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a31f7548e76f94896480d5d0eaf0cc
+      internalID: 2030861053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 300
+        width: 23
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa312d2c9490e346b593f881e7ee163
+      internalID: 1365819744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 300
+        width: 64
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ae55bcccd638647af6e3b1aa85269c
+      internalID: 951682779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 300
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0173ff7026dff874eb3d078411dce355
+      internalID: 245039413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 300
+        width: 31
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ee468265d68d343a67addae01c5380
+      internalID: -1808153486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bin
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 300
+        width: 32
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a808bfe09dde2484cbb803764fa80348
+      internalID: 494612915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bin_broken
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 300
+        width: 30
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b369f5046aa3c4ca6fb352acd6426d
+      internalID: 580596734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 204
+        width: 30
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2405ca9f7b8324c81df18a83fc8f0f
+      internalID: -16104588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 204
+        width: 32
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fbf4d1bb79e6a4ab0d1d512b62ef0f
+      internalID: -359486338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 204
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6ec061c24892340a9a93171f5ade8e
+      internalID: 1123174758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 204
+        width: 56
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572255c99c400dd4aac2aae5a3f1f8ba
+      internalID: -476510096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 204
+        width: 56
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50871180406d1a14fa2fb813e7d530b6
+      internalID: 393942568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 204
+        width: 56
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22a1f4231d647a458fde836bb9b7bad
+      internalID: 318587299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_16
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 204
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a25fc5c9916df498bc2b001a4ecede
+      internalID: -2012104477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 206
+        width: 46
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75927b94c0d786243b44fa9e62007b21
+      internalID: 2131714766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_18
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 246
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce20e7f21df6b024bbdedf4403620452
+      internalID: 1193555706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_broken
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 204
+        width: 38
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccf85e44bf74fa49be7f1a0d03cad8b
+      internalID: 1814293642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 120
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1467eafbd4ebd8c4b9d2d10b95b1f862
+      internalID: 1703864198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_21
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 122
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0747ace1d81e4634aab55bcf0927cf30
+      internalID: -1070509433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80b366e29bbb4d4ab553edb1e0bbb9b
+      internalID: 2093687450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b0918fa8c950e4898f6271c671513e
+      internalID: -1724922467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_24
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 120
+        width: 32
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f4056049191f34ea23eee76f829aa1
+      internalID: 1883542796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_25
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 120
+        width: 32
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c610825c2711b4743bee6c5e8a683768
+      internalID: -455591575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 120
+        width: 32
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5d87159bf6fd142b27150156c9ef41
+      internalID: 663095290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 151
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd96067b4b86e924ab8206bce0bd2de5
+      internalID: -1341646461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 157
+        width: 5
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98410dc3c74ba245b91a2340a7b3a2d
+      internalID: -1637682011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 153
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a823b23b6e78d134b98fedf8ee227695
+      internalID: -1928918611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_30
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 147
+        width: 7
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0603001c4c77904ea6a72f2ab12e1ed
+      internalID: -1530414378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_31
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 120
+        width: 32
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa93e5682589664d99d0f68e601c28a
+      internalID: 1645479421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_32
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 120
+        width: 32
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a097a388eb37b40b664bcd2b84ca6c
+      internalID: -2023022043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_33
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 120
+        width: 38
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82b6872360bafb4d89e50cd5750bd1f
+      internalID: -1269200068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 28
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc20ae9620d65943a1a7334d97e8ee3
+      internalID: -927724668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_35
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 48
+        width: 32
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8782590ea68a4414f84de62deed96ada
+      internalID: 1373889775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 87
+        width: 25
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4f284da96f3a64fa24995bfdf59b16
+      internalID: -342062745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 50
+        width: 96
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd13307677dcddd458cb5f022f116a3f
+      internalID: -1508695825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_38
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 64
+        width: 32
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b25e764f2ffee49b70bac79d0d6b02
+      internalID: -941307721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_39
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 70
+        width: 32
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d825f6b321125479f7c5c7380814b7
+      internalID: -312499302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_40
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 12
+        width: 16
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d55d1095ff9df45b628698e4d77173
+      internalID: 1827683174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_41
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 20
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc12c68f1bc80d4b838aea425970416
+      internalID: -1302260741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_42
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 12
+        width: 16
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8a9abdffd41954fb5ebca158aaa684
+      internalID: -356761177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_43
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 12
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e25ce6f8f2e1e479dfa6df3ab891c5
+      internalID: 124949371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_44
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 12
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cc87bde6f1c7a439c9e41b1e0138c7
+      internalID: -916672296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_45
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 12
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112c9bb6b653b5440b3ac0213aba21db
+      internalID: 1373837077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_46
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 12
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b66b67c5e26e6b4aa779c965e4719d6
+      internalID: -904333346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_47
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 12
+        width: 4
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcc359c75ef98e4d8baccd3fad34934
+      internalID: -1609938774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_48
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 12
+        width: 32
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bb4ed9c6ce490448da7caf46080ee6
+      internalID: 1345807674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_49
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 12
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db8a2f2146ecc148bfeaba49241cf85
+      internalID: 418652405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Miscellaneous_50
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 12
+        width: 64
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a962646dfa27d4d8d71305b9f2e99e
+      internalID: 453544169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3adcad2a6980e7244abb386e47c6bf26
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.05000000074505806},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      bin: 494612915
+      bin_broken: 580596734
+      enviro_Miscellaneous_0: -2064795464
+      enviro_Miscellaneous_1: -453135550
+      enviro_Miscellaneous_10: -16104588
+      enviro_Miscellaneous_11: -359486338
+      enviro_Miscellaneous_13: -476510096
+      enviro_Miscellaneous_14: 393942568
+      enviro_Miscellaneous_15: 318587299
+      enviro_Miscellaneous_16: -2012104477
+      enviro_Miscellaneous_17: 2131714766
+      enviro_Miscellaneous_18: 1193555706
+      enviro_Miscellaneous_2: -1104491790
+      enviro_Miscellaneous_20: 1703864198
+      enviro_Miscellaneous_21: -1070509433
+      enviro_Miscellaneous_22: 2093687450
+      enviro_Miscellaneous_23: -1724922467
+      enviro_Miscellaneous_24: 1883542796
+      enviro_Miscellaneous_25: -455591575
+      enviro_Miscellaneous_26: 663095290
+      enviro_Miscellaneous_27: -1341646461
+      enviro_Miscellaneous_28: -1637682011
+      enviro_Miscellaneous_29: -1928918611
+      enviro_Miscellaneous_3: 2030861053
+      enviro_Miscellaneous_30: -1530414378
+      enviro_Miscellaneous_31: 1645479421
+      enviro_Miscellaneous_32: -2023022043
+      enviro_Miscellaneous_33: -1269200068
+      enviro_Miscellaneous_34: -927724668
+      enviro_Miscellaneous_35: 1373889775
+      enviro_Miscellaneous_36: -342062745
+      enviro_Miscellaneous_37: -1508695825
+      enviro_Miscellaneous_38: -941307721
+      enviro_Miscellaneous_39: -312499302
+      enviro_Miscellaneous_4: 1365819744
+      enviro_Miscellaneous_40: 1827683174
+      enviro_Miscellaneous_41: -1302260741
+      enviro_Miscellaneous_42: -356761177
+      enviro_Miscellaneous_43: 124949371
+      enviro_Miscellaneous_44: -916672296
+      enviro_Miscellaneous_45: 1373837077
+      enviro_Miscellaneous_46: -904333346
+      enviro_Miscellaneous_47: -1609938774
+      enviro_Miscellaneous_48: 1345807674
+      enviro_Miscellaneous_49: 418652405
+      enviro_Miscellaneous_5: 951682779
+      enviro_Miscellaneous_50: 453544169
+      enviro_Miscellaneous_6: 245039413
+      enviro_Miscellaneous_7: -1808153486
+      fence: 1123174758
+      fence_broken: 1814293642
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

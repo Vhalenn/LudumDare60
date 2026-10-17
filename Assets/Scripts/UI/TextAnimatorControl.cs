@@ -22,8 +22,16 @@ public class TextAnimatorControl : MonoBehaviour
         HideText();
     }
 
+    public void ShowText(string text)
+    {
+        if (textAnimator) textAnimator.SetText(text);
+
+        HideText();
+        ShowText();
+    }
+
     [Button,ButtonGroup("State")]
-    private void ShowText()
+    public void ShowText()
     {
         //textAnimator.SetText("<wave>hello");
 
@@ -34,7 +42,7 @@ public class TextAnimatorControl : MonoBehaviour
     }
 
     [Button, ButtonGroup("State")]
-    private void HideText()
+    public void HideText()
     {
         if (typeWritter)
         {
