@@ -15,6 +15,8 @@ public class FollowSmoothObject : MonoBehaviour
     [SerializeField] bool followPositionY = true;
     [SerializeField] bool followPositionZ = true;
 
+    [Header("Offset")]
+    [SerializeField] bool offsetFollowVelocity;
     [SerializeField] Vector3 offsetPos;
 
     private void OnEnable()
@@ -52,6 +54,13 @@ public class FollowSmoothObject : MonoBehaviour
 
             Vector3 smoothPos = Vector3.Lerp(transform.position, objPos, speed);
             transform.position = Vector3.MoveTowards(transform.position, smoothPos, 1);
+
+            if(offsetFollowVelocity)
+            {
+                Vector3 dir = oldPos - objPos;
+                offsetPos = dir;
+            }
+
 
             oldPos = objPos;
         }

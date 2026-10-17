@@ -3,6 +3,7 @@
 public class MovingEntity : MonoBehaviour
 {
     public Rigidbody rb;
+    public Rigidbody2D rb2;
 
     [Header("Move Alterations")]
     public bool boosted;

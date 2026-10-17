@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public class Player : MovingEntity
 {
@@ -13,23 +14,22 @@ public class Player : MovingEntity
     [HideInInspector] private Transform camTransform;
     [HideInInspector] private Camera mainCam;
 
-    [Header("Elements")]
-    [SerializeField] private Transform giftParent;
-
     [Header("Stats")]
     [SerializeField] private float speed = 1f;
-    [SerializeField] private float brakeForce = 0.9f;
-
-    [Header("On Ground")]
-    [SerializeField, Range(0f, 90f)] float maxGroundAngle = 65f;
-    [SerializeField] int groundContactCount;
-    public bool OnGround => groundContactCount > 0;
-    float minGroundDotProduct;
-    public Vector3 contactNormal;
+    [SerializeField] private float speedVMultiplier = 1f;
+    [SerializeField,Range(0,1f)] private float brakeForce = 0.9f;
 
     [Header("SafeZone")]
     [SerializeField] private Vector3 lastSafePos;
     [SerializeField] private List<TriggerSafeZone> safeAreaList;
+
+    [Header("Animation")]
+    [SerializeField, ReadOnly()] private AnimatorStateInfo currentAnimState;
+    [SerializeField, ReadOnly()] private string currentAnim;
+    [SerializeField, ReadOnly()] private bool isAttacking;
+    public const string IDLE_ANIM = "idle";
+    public const string RUN_ANIM = "walk";
+    public const string ATTACK_ANIM = "attack";
 
     [Header("Sound")]
     [SerializeField] private AudioSource audioSource;
@@ -53,34 +53,51 @@ public class Player : MovingEntity
 
     public void Init()
     {
-        if (!rb) rb = GetComponent<Rigidbody>();
         mainCam = Camera.main;
-
-        //OnValidate();
     }
 
     public void Teleport(Vector3 pos)
     {
-        rb.position = pos;
+        rb2.position = pos;
+    }
+
+    private void Update()
+    {
+        if(animator)
+        {
+            currentAnimState = animator.GetCurrentAnimatorStateInfo(0);
+
+
+            if (currentAnimState.IsName(IDLE_ANIM) || currentAnimState.IsName(RUN_ANIM))
+            {
+                currentAnim = "still";
+                isAttacking = false;
+            }
+            else
+            {
+                isAttacking = true;
+                currentAnim = ATTACK_ANIM;
+            }
+        }
     }
 
     private void FixedUpdate()
     {
-        if (!rb) return;
-
-        if(rb.position.y < -1f) // Kill plane
+        if (!rb2) return;
+        /*
+        if(rb2.position.y < -1f) // Kill plane
         {
             Teleport(lastSafePos + Vector3.up * 0.3f);
 
             return;
         }
-
-        velocity = rb.linearVelocity;
+        */
+        velocity = rb2.linearVelocity;
         bool isNotMoving = controlInput.magnitude < 0.1f || InMenu;
 
         if (isNotMoving)
         {
-            velocity.Scale( new (brakeForce, 1, brakeForce));
+            velocity.Scale( new (brakeForce, brakeForce, brakeForce));
         }
         else
         {
@@ -88,9 +105,15 @@ public class Player : MovingEntity
             //velocity = Vector3.Lerp(velocity, FollowingCamAngle(controlInput) * speed, 0.01f);
 
             desiredVelocity = FollowingCamAngle(controlInput) * speed;
+            desiredVelocity.y *= speedVMultiplier;
             velocity = desiredVelocity;
 
-            velocity.y = rb.linearVelocity.y;
+            if(animator && Mathf.Abs(velocity.x) > 0.1f) // If is moving horizontally
+            {
+                animator.transform.localScale = new Vector3(velocity.x > 0f ? -1f : 1f, 1f, 1f);
+            }
+
+            //velocity.y = rb2.linearVelocity.y;
         }
 
         if(audioSourceWalking)
@@ -103,25 +126,18 @@ public class Player : MovingEntity
             animator.SetFloat("run", isNotMoving ? 0f : 1f);
         }
 
-        if (!OnGround && velocity.y < 0) velocity.y *= 1.25f; // Force stronger gravity for test
-
         // Apply speed
-        rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, velocity, 0.3f);
-        if(desiredVelocity.magnitude > 0.001f)
-        {
-            rb.rotation = Quaternion.Lerp(rb.rotation, Quaternion.LookRotation(desiredVelocity), 0.2f);
-        }
-
-        if(safeAreaList != null && safeAreaList.Count > 0)
-        {
-            lastSafePos = rb.position;
-        }
+        rb2.linearVelocity = Vector3.Lerp(rb2.linearVelocity, velocity, 0.3f);
     }
 
     public Vector3 FollowingCamAngle(Vector2 input)
     {
+        return new Vector3(input.x, input.y, 0f);
+
         if (!mainCam) Init();
         if (camTransform == null) camTransform = mainCam.transform;
+
+        // 2D mode
 
         Vector3 forward = camTransform.forward;
         Vector3 right = camTransform.right;
@@ -139,55 +155,33 @@ public class Player : MovingEntity
     // jumping
     #region Jumping
 
-    // Check if is on ground
-    public void ClearState()
+    public void Jump()
     {
-        groundContactCount = 0;
-        contactNormal = Vector3.zero;
+        animator.SetTrigger("jump");
     }
 
-    // Ground check
-    void OnCollisionEnter(Collision collision)
-    {
-        EvaluateCollision(collision);
-    }
-
-    void OnCollisionStay(Collision collision)
-    {
-        EvaluateCollision(collision);
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        ClearState();
-    }
-
-    void EvaluateCollision(Collision collision)
-    {
-        ClearState();
-        for (int i = 0; i < collision.contactCount; i++)
-        {
-            Vector3 normal = collision.GetContact(i).normal;
-
-            if (normal.y >= minGroundDotProduct)
-            {
-                groundContactCount += 1;
-                contactNormal += normal;
-            }
-        }
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = OnGround ? Color.green : Color.red;
-        Gizmos.DrawWireSphere(transform.position, 0.5f);
-    }
-
-    public void OnValidate()
-    {
-        minGroundDotProduct = Mathf.Cos(maxGroundAngle * Mathf.Deg2Rad);
-    }
     #endregion Jumping
+
+    // Attack
+    #region Attack
+
+    public void Attack()
+    {
+        animator.SetTrigger("attack");
+        isAttacking = true;
+    }
+
+    public void HeavyAttack() // Maybe?
+    {
+
+    }
+
+    public void Grab() // Maybe?
+    {
+
+    }
+
+    #endregion Attack
 
     #region SafeZone
     public void AddTriggerZone(TriggerSafeZone safeZone)
@@ -209,4 +203,12 @@ public class Player : MovingEntity
         }
     }
     #endregion SafeZone
+
+    /*
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = OnGround ? Color.green : Color.red;
+        Gizmos.DrawWireSphere(transform.position, 0.5f);
+    }
+    */
 }

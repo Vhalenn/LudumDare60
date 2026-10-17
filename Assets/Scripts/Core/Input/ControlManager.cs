@@ -26,6 +26,10 @@ public class ControlManager : MonoBehaviour
         {
             playerInput.actions["Move"].performed += ctx => player.controlInput = Vector2.ClampMagnitude(ctx.ReadValue<Vector2>(), 1f);
             playerInput.actions["Move"].canceled += ctx => player.controlInput = Vector2.zero;
+
+
+            playerInput.actions["Jump"].performed += ctx => player.Jump();
+            playerInput.actions["Punch"].performed += ctx => player.Attack();
             //controls.Player.Move.performed += ctx => player.controlInput = Vector2.ClampMagnitude(ctx.ReadValue<Vector2>(), 1f);
             //controls.Player.Move.canceled += _ => player.controlInput = Vector2.zero;
             //controls.Player.Jump.performed += _ => player.desiredJump |= true;
