@@ -95,7 +95,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,7 +137,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 187
-        y: 460
+        y: 864
         width: 282
         height: 139
       alignment: 7
@@ -159,7 +159,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10
-        y: 119
+        y: 524
         width: 506
         height: 218
       alignment: 7
@@ -181,7 +181,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 484
-        y: 400
+        y: 804
         width: 413
         height: 211
       alignment: 0
@@ -203,7 +203,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 59
-        y: 432
+        y: 836
         width: 109
         height: 79
       alignment: 0
@@ -216,6 +216,72 @@ TextureImporter:
       bones: []
       spriteID: eef50d565b49f384584ba0022e5f5f89
       internalID: -5709172793190704378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 729
+        width: 99
+        height: 21
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17067dff13f13f94e91fb21b28cc5f28
+      internalID: 4028299895476524905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_3
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 197
+        width: 274
+        height: 488
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b985385771480945a1a99181a3709aa
+      internalID: -5087681061355413194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_4
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 697
+        width: 136
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d029d516bb9d544aa83a9fdeb5c8bd
+      internalID: -4583289216471844491
       vertices: []
       indices: 
       edges: []
