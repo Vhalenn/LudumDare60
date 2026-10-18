@@ -134,4 +134,23 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
 
         return true;
     }
+
+    public bool HeavyAttack() // Maybe?
+    {
+        if (animState == AnimState.Hurted)
+        {
+            // Cannot attack
+            return false;
+        }
+
+        Debug.Log("Heavy attack!");
+
+        if (animator)
+        {
+            animator.SetTrigger("attackHeavy");
+        }
+
+        return true;
+
+    }
 }

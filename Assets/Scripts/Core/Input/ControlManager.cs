@@ -31,8 +31,7 @@ public class ControlManager : MonoBehaviour
             playerInput.actions["Move"].performed += ctx => player.controlInput = Vector2.ClampMagnitude(ctx.ReadValue<Vector2>(), 1f);
             playerInput.actions["Move"].canceled += ctx => player.controlInput = Vector2.zero;
 
-            playerInput.actions["PunchHeavy"].performed += ctx => player.HeavyAttack();
-            playerInput.actions["PunchHeavy"].performed += ctx => game.ArcadeControls.BtnPressed(1); // Not clean but works
+            playerInput.actions["PunchHeavy"].performed += ctx => PlayerHeavyPunch();
         }
 
         playerInput.actions["Quit"].started += ctx => OnEscape();
@@ -63,5 +62,11 @@ public class ControlManager : MonoBehaviour
 
         if(canvas) canvas.ProgresInDialog(); // Not clean but works
         if(game) game.ArcadeControls.BtnPressed(0); // Not clean but works
+    }
+    private void PlayerHeavyPunch()
+    {
+        player.HeavyAttack();
+
+        if (game) game.ArcadeControls.BtnPressed(1); // Not clean but works
     }
 }

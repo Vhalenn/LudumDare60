@@ -599,7 +599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_22
+      name: axel_kick_00
       rect:
         serializedVersion: 2
         x: 208
@@ -621,7 +621,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_23
+      name: axel_kick_01
       rect:
         serializedVersion: 2
         x: 256
@@ -643,7 +643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_24
+      name: axel_kick_02
       rect:
         serializedVersion: 2
         x: 312
@@ -665,7 +665,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_25
+      name: axel_kick_03
       rect:
         serializedVersion: 2
         x: 400
@@ -2215,10 +2215,6 @@ TextureImporter:
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_16: 258065768
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_17: -704459442
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_18: -224339165
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_22: -2069589441
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_23: 1582795877
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_24: -1765162140
-      Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_25: -502066694
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_26: 52596230
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_27: 176406005
       Sega Genesis - Streets of Rage 2 - Playable Characters - Axel_28: -1628912566
@@ -2300,6 +2296,10 @@ TextureImporter:
       axel_jump_01: 63785787
       axel_jump_02: 322560670
       axel_jump_03: 2053102203
+      axel_kick_00: -2069589441
+      axel_kick_01: 1582795877
+      axel_kick_02: -1765162140
+      axel_kick_03: -502066694
       axel_punch_00: -780096619
       axel_punch_01: -2075385943
       axel_punch_02: 688412110

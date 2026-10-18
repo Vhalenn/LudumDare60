@@ -118,10 +118,6 @@ public class Player : MovingEntity
     }
     */
 
-    public void HeavyAttack() // Maybe?
-    {
-
-    }
 
     public void Grab() // Maybe?
     {
