@@ -11,6 +11,7 @@ public class ControlManager : MonoBehaviour
 
     [Header("Elements")]
     public GameManager game;
+    public CanvasManager canvas;
     public Player player;
     public CameraRotation camRotation;
 
@@ -22,23 +23,19 @@ public class ControlManager : MonoBehaviour
         //controls = new InputMaster();
         //controls.Enable();
 
+        playerInput.actions["Jump"].performed += ctx => PlayerJump();
+        playerInput.actions["Punch"].performed += ctx => PlayerPunch();
+
         if(player) // PLAYER
         {
             playerInput.actions["Move"].performed += ctx => player.controlInput = Vector2.ClampMagnitude(ctx.ReadValue<Vector2>(), 1f);
             playerInput.actions["Move"].canceled += ctx => player.controlInput = Vector2.zero;
 
-
-            playerInput.actions["Jump"].performed += ctx => player.Jump();
-            playerInput.actions["Punch"].performed += ctx => player.Attack();
-            playerInput.actions["Punch"].performed += ctx => game.CanvasManager.ProgresInDialog(); // Not clean but works
+            playerInput.actions["PunchHeavy"].performed += ctx => player.HeavyAttack();
+            playerInput.actions["PunchHeavy"].performed += ctx => game.ArcadeControls.BtnPressed(1); // Not clean but works
         }
 
-        if(game)
-        {
-            playerInput.actions["Quit"].started += ctx => game.OnEscape();
-
-            //playerInput.actions["Interact"].started += ctx => game.PlayerActionPressed();
-        }
+        playerInput.actions["Quit"].started += ctx => OnEscape();
 
         if(camRotation)
         {
@@ -49,4 +46,22 @@ public class ControlManager : MonoBehaviour
         //controls.Menu.Escape.started += _ => TogglePauseMenu();
     }
 
+    private void OnEscape()
+    {
+        if (game) game.OnEscape();
+    }
+
+    private void PlayerJump()
+    {
+        player.Jump();
+        if(game) game.ArcadeControls.BtnPressed(2); // Not clean but works
+    }
+
+    private void PlayerPunch()
+    {
+        player.Attack();
+
+        if(canvas) canvas.ProgresInDialog(); // Not clean but works
+        if(game) game.ArcadeControls.BtnPressed(0); // Not clean but works
+    }
 }

@@ -15,11 +15,19 @@ MonoBehaviour:
   array:
   - speakerNameFr: Professeur
     speakerNameEn: Teacher
-    dialogFr: "Arr\xEAtez! C'est de la folie!! Nous ne pouvons pas vous laisser continuer comme \xE7a!"
-    dialogEn: 
     sprite: {fileID: 1142424706, guid: e19bc265341249f4a907cf8084585009, type: 3}
+    dialogFr: "Arr\xEAtez! C'est de la folie!!\\nNous ne pouvons pas vous laisser continuer comme \xE7a!"
+    dialogEn: 
+    dialEvent: 0
   - speakerNameFr: ???
     speakerNameEn: ???
-    dialogFr: "Hehehe un pas de plus et vous aurez une r\xE9ponse proOOpoOOrtionelle!\nTendu, tendu les tirs les gars!"
+    sprite: {fileID: -1142604515, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
+    dialogFr: "Hehehe un pas de plus et vous aurez une r\xE9ponse proOOpoOOrtionelle!"
     dialogEn: 
-    sprite: {fileID: 780981704, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
+    dialEvent: 0
+  - speakerNameFr: ???
+    speakerNameEn: ???
+    sprite: {fileID: -1142604515, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
+    dialogFr: '*Tendu! Tendu les tirs les gars!*'
+    dialogEn: 
+    dialEvent: 0

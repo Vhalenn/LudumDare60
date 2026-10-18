@@ -67,6 +67,16 @@
                     "priority": 0
                 },
                 {
+                    "name": "PunchHeavy",
+                    "type": "Button",
+                    "id": "4fbd0ca7-1e78-4884-9dc4-05397a50f263",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
                     "name": "Quit",
                     "type": "Button",
                     "id": "ceca40d8-d410-44e9-afe2-6487cd15f73c",
@@ -306,6 +316,50 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "Punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fc43422-9555-4802-9bd9-33202cc4a02b",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "PunchHeavy",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "672f0555-1abf-4c2d-befe-6d4f573d214f",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "PunchHeavy",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fbb35262-9a10-4173-85bf-7065038ff095",
+                    "path": "<Gamepad>/leftStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "PunchHeavy",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb82e97e-9da1-43ac-8e8e-e13ef89d9631",
+                    "path": "<XRController>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR",
+                    "action": "PunchHeavy",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

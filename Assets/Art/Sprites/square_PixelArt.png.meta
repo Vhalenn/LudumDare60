@@ -1,0 +1,902 @@
+fileFormatVersion: 2
+guid: 0980800130fb7134cb43e325b44fc3b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4195839043496745745
+    second: square_PixelArt_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 2, y: 2, z: 2, w: 2}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 480
+        width: 47
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8b69610b7bc26c0800000000000000
+      internalID: -4166753588303447819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 480
+        width: 47
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cde283b6db9a3742b7c9f307c5716a0
+      internalID: 3890437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 480
+        width: 55
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d164953490319dd47bf30b90de24ef67
+      internalID: -332378698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 47
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e574c459e8c7c43b9727dbae099cb3
+      internalID: -1661775199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 497
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f9bda7ea6fd2e40a60d9c2324a49f9
+      internalID: -1755392852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 480
+        width: 48
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b5f5536f62dcb49898577821ca66be
+      internalID: 250461861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 396
+        width: 44
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa8937fc4996164daa9caa42023787a
+      internalID: -650071325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 396
+        width: 43
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c340ed754874d46910f896abd8fe56
+      internalID: 1701682125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 396
+        width: 52
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a5cca9bccb1ea4cb948ec10f8588fb
+      internalID: 123882521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 396
+        width: 55
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220fd751965dc6447867d2d3d19d1795
+      internalID: 1450165229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 396
+        width: 83
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c786dc54eee194a85e428e061d9353
+      internalID: 263356283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_12
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 396
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d0067a49e51474ea3939cd24a134e2
+      internalID: 357632308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 300
+        width: 55
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afd1ac2d77a94148985b81c3bd9d856
+      internalID: 88964315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 300
+        width: 32
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137c091eae4b06749a95cefe5f340a5d
+      internalID: -818789137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 300
+        width: 75
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9da7b824bcbfc4d943fb359b2c60f8
+      internalID: -610402734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 300
+        width: 61
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7777cfbe260094f9f25ec20a26ddc0
+      internalID: -620645663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_17
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 300
+        width: 62
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58314ba4cf085164e8fbd058600e7824
+      internalID: 1550864173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 300
+        width: 34
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acf02f6df4065a40bc658a9c2ed7728
+      internalID: -1042478025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 216
+        width: 51
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f820394a35fc2dd48b8f260b212c0fc9
+      internalID: -2082199334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 216
+        width: 83
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1ead2ce8775c84ca067cda931e7236
+      internalID: 1116275387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 216
+        width: 37
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534cbdd391941b6499b6889d47a1cd62
+      internalID: 176216233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 216
+        width: 61
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394d8a8521af4c34a9d2c0194653602a
+      internalID: -2073056357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 216
+        width: 71
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8280da4b541c4a64f90a6e3eff215e27
+      internalID: 1057486209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 120
+        width: 34
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd6c4382b92199489162a1c58418d25
+      internalID: 788498138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 62
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287c6ca14adb4da4ea76667a9ff6c3fc
+      internalID: 1124008721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_26
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 120
+        width: 61
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44034bd92ffda5540a51c708bf42e5e4
+      internalID: 1021916781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 127
+        width: 56
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f8a8904cbad9847923e30eec3dc34b
+      internalID: -1178559129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_28
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 152
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a060a98c96006488d4bed1cb438ecd
+      internalID: -1852598126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 152
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70f29dd865a3924a962c0eeb403df65
+      internalID: -1422469130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_30
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 48
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da8ee77a7f616f4ab4feb120219db21
+      internalID: 44555318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 12
+        width: 63
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a264e319bdb2d4c80d8f369b2244ce
+      internalID: -2093802211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 12
+        width: 56
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33467bcaa102c034e8ddc8d73fea7748
+      internalID: 1431002632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_33
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 12
+        width: 61
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d841ca3daed6b546b1065083fc46d08
+      internalID: -1975373337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3adcad2a6980e7244abb386e47c6bf26
+    internalID: -673374959
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.019999999552965164},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_0: -4166753588303447819
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_1: 3890437
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_10: 1450165229
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_11: 263356283
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_12: 357632308
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_13: 88964315
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_14: -818789137
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_15: -610402734
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_16: -620645663
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_17: 1550864173
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_18: -1042478025
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_19: -2082199334
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_2: -332378698
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_20: 1116275387
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_21: 176216233
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_22: -2073056357
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_23: 1057486209
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_24: 788498138
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_25: 1124008721
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_26: 1021916781
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_27: -1178559129
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_28: -1852598126
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_29: -1422469130
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_3: -1661775199
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_30: 44555318
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_31: -2093802211
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_32: 1431002632
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_33: -1975373337
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_34: 1901949828
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_35: 1910475847
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_36: -1053313128
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_37: -389217826
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_38: 1021464662
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_4: -1755392852
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_5: 250461861
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_6: -1875662380
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_7: -650071325
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_8: 1701682125
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Kusanagi_9: 123882521
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

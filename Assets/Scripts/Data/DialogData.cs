@@ -7,9 +7,12 @@ public class DialogData : ScriptableObject
 {
     public DialogBubble[] array;
 
-    public void LoadLevel(int index)
+    public DialogBubble GetBubble(int index, out bool success)
     {
-        //SceneLoader.LoadScene(list[index].sceneName);
+        success = (array != null && index >= 0 && array.Length > index);
+
+        if (success) return array[index];
+        else return default;
     }
 }
 
@@ -18,7 +21,16 @@ public struct DialogBubble
 {
     public string speakerNameFr;
     public string speakerNameEn;
+    [PreviewField(100, ObjectFieldAlignment.Left), LabelWidth(50)] public Sprite sprite;
     [TextArea] public string dialogFr;
     [TextArea] public string dialogEn;
-    [PreviewField(100, ObjectFieldAlignment.Left), LabelWidth(50)] public Sprite sprite;
+    public DialogEvent dialEvent;
+}
+
+public enum DialogEvent
+{
+    None,
+    ShakeScreen, // Maybe?
+    WinGame,
+    TpToNextLevel,
 }

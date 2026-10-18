@@ -419,6 +419,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: enemy_Galsia_0
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 10
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d359c13b7add9d479758ae8690e5663
+      internalID: 1667072909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Galsia_1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 76
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c01e3fc752346f429185398764e63a2
+      internalID: -1142604515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -440,6 +484,8 @@ TextureImporter:
       Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_12: 2055470749
       Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_8: -1436476920
       Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_9: 780981704
+      enemy_Galsia_0: 1667072909
+      enemy_Galsia_1: -1142604515
       enemy_dead_01: -2057251471
       enemy_grabbed_00: -535150638
       enemy_grabbed_01: -2096212701

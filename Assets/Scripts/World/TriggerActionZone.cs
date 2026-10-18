@@ -18,14 +18,14 @@ public class TriggerActionZone : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
-        TriggerEnter();
+        TriggerEnter(other.gameObject);
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player")) return;
-        TriggerEnter();
+        TriggerEnter(other.gameObject);
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -40,9 +40,9 @@ public class TriggerActionZone : MonoBehaviour
         TriggerExit();
     }
 
-    private void TriggerEnter()
+    private void TriggerEnter(GameObject obj)
     {
-        //Debug.LogError("TRIGGER -> Enter");
+        Debug.Log($"TRIGGER {transform.name} -> Enter : {obj.name}");
 
         OnEnter?.Invoke();
     }

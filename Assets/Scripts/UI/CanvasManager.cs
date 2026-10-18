@@ -56,9 +56,9 @@ public class CanvasManager : MonoBehaviour
 
     public void StartDialog(DialogData dialog)
     {
-        if (!dialogManager)
+        if(dialogManager == null)
         {
-            Debug.LogError("No dialog manager referenced!");
+            Debug.LogError("No dialog manager referenced in {transform.name}!");
             return;
         }
 
@@ -68,9 +68,9 @@ public class CanvasManager : MonoBehaviour
 
     public void ProgresInDialog()
     {
-        if (!dialogManager)
+        if(dialogManager == null)
         {
-            Debug.LogError("No dialog manager referenced!");
+            Debug.LogError($"No dialog manager referenced in {transform.name}!");
             return;
         }
 
@@ -78,4 +78,9 @@ public class CanvasManager : MonoBehaviour
     }
 
     #endregion Dialog
+
+    private void OnDestroy()
+    {
+        Debug.LogError("ERROR: Canvas manager has been destroyed!!!");
+    }
 }

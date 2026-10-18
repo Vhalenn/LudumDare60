@@ -135,6 +135,11 @@ public class Player : MovingEntity
         worldManager.LooseGame();
     }
 
+    public float GetLifePercentage()
+    {
+        return life / maxLife;
+    }
+
     #region SafeZone
     public void AddTriggerZone(TriggerSafeZone safeZone)
     {

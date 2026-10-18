@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 9112947264044171772}
   m_Layer: 7
   m_Name: pfb_EnemyA
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,6 +359,51 @@ MonoBehaviour:
   attackCooldown: 1.5
   preAttackTime: 0
   attackTime: 0
+  posXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  posYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 4.9956617
+      outSlope: 4.9956617
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.042440318
+    - serializedVersion: 3
+      time: 0.5013298
+      value: 1
+      inSlope: -0.012386918
+      outSlope: -0.012386918
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9986572
+      value: -0.004337311
+      inSlope: -5.3634586
+      outSlope: -5.3634586
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03740803
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  destroyed: 0
+  destroyedTime: 0
+  destroyedEndAnim: 0
+  randomForce: 0.5
+  startPos: {x: 0, y: 0, z: 0}
+  dir: {x: 0, y: 0, z: 0}
 --- !u!82 &5731749867051840767
 AudioSource:
   m_ObjectHideFlags: 0
@@ -641,7 +686,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6170357324137008389}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1

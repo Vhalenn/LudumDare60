@@ -10,6 +10,7 @@ public class GameManager : Singleton<GameManager>
     [Header("Elements")]
     [SerializeField] private WorldManager world; public WorldManager World => world;
     [SerializeField] private CanvasManager canvasManager; public CanvasManager CanvasManager => canvasManager;
+    [SerializeField] private ArcadeControls arcadeControls; public ArcadeControls ArcadeControls => arcadeControls;
 
     public void Start()
     {

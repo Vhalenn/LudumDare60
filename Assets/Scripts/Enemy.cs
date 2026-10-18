@@ -19,6 +19,16 @@ public class Enemy : MovingEntity
     [SerializeField, ReadOnly()] private float preAttackTime;
     [SerializeField, ReadOnly()] private float attackTime;
 
+    [Header("Down Anim")]
+    [SerializeField] private AnimationCurve posXCurve;
+    [SerializeField] private AnimationCurve posYCurve;
+    [SerializeField, ReadOnly()] private bool destroyed;
+    [SerializeField, ReadOnly()] private float destroyedTime;
+    [SerializeField, ReadOnly()] private bool destroyedEndAnim;
+    [SerializeField, ReadOnly()] private float randomForce = 0.5f;
+    [SerializeField, ReadOnly()] private Vector3 startPos;
+    [SerializeField, ReadOnly()] private Vector3 dir;
+
     protected override void Init()
     {
         base.Init();
@@ -80,7 +90,12 @@ public class Enemy : MovingEntity
 
         if (!rb2) return;
 
-        if (animState != AnimState.Still)
+
+        if (GameManager.instance && GameManager.instance.InMenu)
+        {
+            // Wait, player in menu
+        }
+        else if (animState != AnimState.Still)
         {
             // Not moving
         }
@@ -111,6 +126,12 @@ public class Enemy : MovingEntity
 
     private void UpdateAttack(float deltaTime)
     {
+        if (GameManager.instance && GameManager.instance.InMenu)
+        {
+            // Wait, player in menu
+            return;
+        }
+
         // Attack stages
         if (attackTime < attackCooldown) // Cooldown between attacks
         {
