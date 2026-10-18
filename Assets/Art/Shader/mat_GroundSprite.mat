@@ -47,7 +47,7 @@ Material:
     m_Floats:
     - _NoiseOffsetX: 0.55
     - _NoiseOffsetY: 0.55
-    - _NoiseOpacity: 0.8
+    - _NoiseOpacity: 0.5
     - _Noise_Tilling: 0.08
     - _Tilling: 6.25
     m_Colors:

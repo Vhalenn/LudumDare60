@@ -16,6 +16,6 @@ MonoBehaviour:
   - speakerNameFr: ???
     speakerNameEn: ???
     sprite: {fileID: -1142604515, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
-    dialogFr: "Rha quel kiffe! Je compte m\xEAme plus le nombre de gens qu'on, a \xE9borgn\xE9!"
+    dialogFr: "J'en ai couch\xE9 au moins quatres!"
     dialogEn: 
     dialEvent: 0
