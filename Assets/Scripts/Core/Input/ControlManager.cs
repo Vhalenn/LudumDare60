@@ -60,7 +60,7 @@ public class ControlManager : MonoBehaviour
     {
         player.Attack();
 
-        if(canvas) canvas.ProgresInDialog(); // Not clean but works
+        //if(canvas) canvas.ProgresInDialog(); // Not clean but works
         if(game) game.ArcadeControls.BtnPressed(0); // Not clean but works
     }
     private void PlayerHeavyPunch()

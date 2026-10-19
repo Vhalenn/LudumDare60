@@ -1,0 +1,1226 @@
+fileFormatVersion: 2
+guid: 1093f63d6ea16f94788eb01cbbd94ae6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2683802054737990115
+    second: crowd_A_0
+  - first:
+      213: 4351220016262950648
+    second: crowd_A_1
+  - first:
+      213: 8198869282437683099
+    second: crowd_A_2
+  - first:
+      213: -720905940780655534
+    second: crowd_A_3
+  - first:
+      213: -6486987736104253667
+    second: crowd_A_4
+  - first:
+      213: 2287503207576586234
+    second: crowd_A_5
+  - first:
+      213: 1641862959002377966
+    second: crowd_A_6
+  - first:
+      213: 5520409419986838438
+    second: crowd_A_7
+  - first:
+      213: 3664809713705585690
+    second: crowd_A_8
+  - first:
+      213: -1463818708302726412
+    second: crowd_A_9
+  - first:
+      213: -2633458057520375592
+    second: crowd_A_10
+  - first:
+      213: -742518701457859677
+    second: crowd_A_11
+  - first:
+      213: 8541713180003292388
+    second: crowd_A_12
+  - first:
+      213: -4797870569809607093
+    second: crowd_A_13
+  - first:
+      213: -1766904213883352545
+    second: crowd_A_14
+  - first:
+      213: -5340581831454057837
+    second: crowd_A_15
+  - first:
+      213: -7014713543691380868
+    second: crowd_A_16
+  - first:
+      213: -266901523944080809
+    second: crowd_A_17
+  - first:
+      213: 4688271442046853700
+    second: crowd_A_18
+  - first:
+      213: -946523790542458033
+    second: crowd_A_19
+  - first:
+      213: -1748024403419725533
+    second: crowd_A_20
+  - first:
+      213: 608369023022018618
+    second: crowd_A_21
+  - first:
+      213: -2012294091279730947
+    second: crowd_A_22
+  - first:
+      213: -2322524626445397483
+    second: crowd_A_23
+  - first:
+      213: -5714934692207714468
+    second: crowd_A_24
+  - first:
+      213: 8638059983835236320
+    second: crowd_A_25
+  - first:
+      213: 6054547856835565000
+    second: crowd_A_26
+  - first:
+      213: 3201404297211484799
+    second: crowd_A_27
+  - first:
+      213: -7481100993345279975
+    second: crowd_A_28
+  - first:
+      213: -5452060734227716965
+    second: crowd_A_29
+  - first:
+      213: -7908438326999739343
+    second: crowd_A_30
+  - first:
+      213: 4139880808155282501
+    second: crowd_A_31
+  - first:
+      213: 3103749758245278093
+    second: crowd_A_32
+  - first:
+      213: 5418941116040345526
+    second: crowd_A_33
+  - first:
+      213: -8638185102814200426
+    second: crowd_A_34
+  - first:
+      213: -1096382158227187433
+    second: crowd_A_35
+  - first:
+      213: -1496535985848474276
+    second: crowd_A_36
+  - first:
+      213: -2522626653044908810
+    second: crowd_A_37
+  - first:
+      213: -5394252930201272734
+    second: crowd_A_38
+  - first:
+      213: -9098102070748268281
+    second: crowd_A_39
+  - first:
+      213: -5821865054406444810
+    second: crowd_A_40
+  - first:
+      213: 8756213239522578969
+    second: crowd_A_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 51
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim_idle_00
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 432
+        width: 48
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ee0e7204831cad0800000000000000
+      internalID: -2683802054737990115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_idle_01
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 47
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe2ce01d83a26c30800000000000000
+      internalID: 4351220016262950648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_idle_02
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 432
+        width: 59
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b975f834c2c38c170800000000000000
+      internalID: 8198869282437683099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 432
+        width: 59
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cdc4bcdd3def5f0800000000000000
+      internalID: -720905940780655534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 432
+        width: 68
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17c037060799f5a0800000000000000
+      internalID: -6486987736104253667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 328
+        width: 60
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af74b2e2c08debf10800000000000000
+      internalID: 2287503207576586234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 328
+        width: 61
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee553989a119c610800000000000000
+      internalID: 1641862959002377966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 328
+        width: 61
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3290d7e1f6c9c40800000000000000
+      internalID: 5520409419986838438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 328
+        width: 55
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c82d284050cd230800000000000000
+      internalID: 3664809713705585690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 328
+        width: 51
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa7b04f3a87fabe0800000000000000
+      internalID: -1463818708302726412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 328
+        width: 60
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d89b9e69d3147bd0800000000000000
+      internalID: -2633458057520375592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 328
+        width: 59
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab1580dc2b02b5f0800000000000000
+      internalID: -742518701457859677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 328
+        width: 91
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e45e5b91e24a8670800000000000000
+      internalID: 8541713180003292388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 208
+        width: 55
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b468230132a8a6db0800000000000000
+      internalID: -4797870569809607093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 208
+        width: 42
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a875b9af1ba77e0800000000000000
+      internalID: -1766904213883352545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 47
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a9642be1172e5b0800000000000000
+      internalID: -5340581831454057837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 208
+        width: 54
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c775723923bb6ae90800000000000000
+      internalID: -7014713543691380868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 208
+        width: 85
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a7d436a76cb4cf0800000000000000
+      internalID: -266901523944080809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 208
+        width: 46
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442afc97906101140800000000000000
+      internalID: 4688271442046853700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 208
+        width: 46
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43b24d90a54dd2f0800000000000000
+      internalID: -946523790542458033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_20
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 208
+        width: 86
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32104770115cdb7e0800000000000000
+      internalID: -1748024403419725533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_21
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 208
+        width: 80
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a303495376c517800800000000000000
+      internalID: 608369023022018618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_L_00
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 56
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df677a18f25e214e0800000000000000
+      internalID: -2012294091279730947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_L_01
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 51
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51210a2582cb4cfd0800000000000000
+      internalID: -2322524626445397483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_L_02
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 104
+        width: 55
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f176c2d2970b0b0800000000000000
+      internalID: -5714934692207714468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 104
+        width: 80
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e70405f9cd80e770800000000000000
+      internalID: 8638059983835236320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 104
+        width: 57
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5594a8233160450800000000000000
+      internalID: 6054547856835565000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 104
+        width: 53
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a13bd1f3cad6c20800000000000000
+      internalID: 3201404297211484799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_28
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 104
+        width: 44
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91825da784acd2890800000000000000
+      internalID: -7481100993345279975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_29
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 104
+        width: 47
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94608206a36654b0800000000000000
+      internalID: -5452060734227716965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_30
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 104
+        width: 62
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13498170e359f3290800000000000000
+      internalID: -7908438326999739343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 76
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c7d8639afc37930800000000000000
+      internalID: 4139880808155282501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 106
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d811ae3f5fbb21b20800000000000000
+      internalID: 3103749758245278093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onGround_00
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 16
+        width: 100
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7f758fb32f33b40800000000000000
+      internalID: 5418941116040345526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_34
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 16
+        width: 70
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d30b28a600f1880800000000000000
+      internalID: -8638185102814200426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_35
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 16
+        width: 24
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719dac86c3ed8c0f0800000000000000
+      internalID: -1096382158227187433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_36
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 16
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55a9e9237c3b3be0800000000000000
+      internalID: -1496535985848474276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_37
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 16
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc535cac64ddfcd0800000000000000
+      internalID: -2522626653044908810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_38
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 16
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e3eba3a83c325b0800000000000000
+      internalID: -5394252930201272734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_39
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 16
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709bdc6de5c0db180800000000000000
+      internalID: -9098102070748268281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_40
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 16
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8f7dd1494943fa0800000000000000
+      internalID: -5821865054406444810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowd_A_41
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 16
+        width: 22
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912d0578c81548970800000000000000
+      internalID: 8756213239522578969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ca76a54638c173248acc874c8cd02efc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.019999999552965164},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":1,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      anim_L_00: -2012294091279730947
+      anim_L_01: -2322524626445397483
+      anim_L_02: -5714934692207714468
+      anim_idle_00: -2683802054737990115
+      anim_idle_01: 4351220016262950648
+      anim_idle_02: 8198869282437683099
+      crowd_A_10: -2633458057520375592
+      crowd_A_11: -742518701457859677
+      crowd_A_12: 8541713180003292388
+      crowd_A_13: -4797870569809607093
+      crowd_A_14: -1766904213883352545
+      crowd_A_15: -5340581831454057837
+      crowd_A_16: -7014713543691380868
+      crowd_A_17: -266901523944080809
+      crowd_A_18: 4688271442046853700
+      crowd_A_19: -946523790542458033
+      crowd_A_20: -1748024403419725533
+      crowd_A_21: 608369023022018618
+      crowd_A_25: 8638059983835236320
+      crowd_A_26: 6054547856835565000
+      crowd_A_27: 3201404297211484799
+      crowd_A_28: -7481100993345279975
+      crowd_A_29: -5452060734227716965
+      crowd_A_3: -720905940780655534
+      crowd_A_30: -7908438326999739343
+      crowd_A_31: 4139880808155282501
+      crowd_A_32: 3103749758245278093
+      crowd_A_34: -8638185102814200426
+      crowd_A_35: -1096382158227187433
+      crowd_A_36: -1496535985848474276
+      crowd_A_37: -2522626653044908810
+      crowd_A_38: -5394252930201272734
+      crowd_A_39: -9098102070748268281
+      crowd_A_4: -6486987736104253667
+      crowd_A_40: -5821865054406444810
+      crowd_A_41: 8756213239522578969
+      crowd_A_5: 2287503207576586234
+      crowd_A_6: 1641862959002377966
+      crowd_A_7: 5520409419986838438
+      crowd_A_8: 3664809713705585690
+      crowd_A_9: -1463818708302726412
+      onGround_00: 5418941116040345526
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

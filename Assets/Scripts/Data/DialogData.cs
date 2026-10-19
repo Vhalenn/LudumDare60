@@ -21,6 +21,10 @@ public struct DialogBubble
 {
     public string speakerNameFr;
     public string speakerNameEn;
+    public string speakerStyle;
+    public bool HasStyle => !string.IsNullOrWhiteSpace(speakerStyle);
+
+    [Title("Text")]
     [PreviewField(100, ObjectFieldAlignment.Left), LabelWidth(50)] public Sprite sprite;
     [TextArea] public string dialogFr;
     [TextArea] public string dialogEn;

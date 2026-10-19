@@ -15,19 +15,29 @@ MonoBehaviour:
   array:
   - speakerNameFr: Professeur
     speakerNameEn: Teacher
+    speakerStyle: 
     sprite: {fileID: 1142424706, guid: e19bc265341249f4a907cf8084585009, type: 3}
     dialogFr: "Arr\xEAtez! C'est de la folie!!\\nNous ne pouvons pas vous laisser continuer comme \xE7a!"
-    dialogEn: 
+    dialogEn: Stop! This is madness!!\nWe cannot let you continue like this!
+    dialEvent: 0
+  - speakerNameFr: Professeur
+    speakerNameEn: Teacher
+    speakerStyle: 
+    sprite: {fileID: 1142424706, guid: e19bc265341249f4a907cf8084585009, type: 3}
+    dialogFr: Ce sont des enfants que vous avez mutilez!!!
+    dialogEn: These are children that you have mutilated!!!
     dialEvent: 0
   - speakerNameFr: ???
     speakerNameEn: ???
+    speakerStyle: 
     sprite: {fileID: -1142604515, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
-    dialogFr: "Hehehe un pas de plus et vous aurez une r\xE9ponse proOOpoOOrtionelle!"
-    dialogEn: 
+    dialogFr: "Hehehe un pas de plus et vous aurez une r\xE9ponse prOOOpOrtionelle!"
+    dialogEn: "Hehehe, one more step and you\u2019ll get a prOOOpOrtional response!"
     dialEvent: 0
   - speakerNameFr: ???
     speakerNameEn: ???
+    speakerStyle: 
     sprite: {fileID: -1142604515, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
     dialogFr: '*Tendu! Tendu les tirs les gars!*'
-    dialogEn: 
+    dialogEn: '*Tight! Keep your shots tight, guys!*'
     dialEvent: 0

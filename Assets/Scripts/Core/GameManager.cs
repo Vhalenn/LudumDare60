@@ -49,4 +49,9 @@ public class GameManager : Singleton<GameManager>
             canvasManager.PauseMenuChangeState();
         }
     }
+
+    public void QuitGame()
+    {
+        CoreUtility.QuitGame();
+    }
 }

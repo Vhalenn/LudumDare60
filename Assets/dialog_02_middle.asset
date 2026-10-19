@@ -15,7 +15,8 @@ MonoBehaviour:
   array:
   - speakerNameFr: ???
     speakerNameEn: ???
+    speakerStyle: 
     sprite: {fileID: -1142604515, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
     dialogFr: "J'en ai couch\xE9 au moins quatres!"
-    dialogEn: 
+    dialogEn: I've laid at least four of them out!
     dialEvent: 0

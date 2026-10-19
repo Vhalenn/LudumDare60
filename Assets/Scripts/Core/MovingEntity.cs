@@ -23,6 +23,8 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
     protected float stunMeter;
     protected float stunTime;
 
+    private string lastAttackSoundClip;
+
     [Header("Animation")]
     [SerializeField] protected Animator animator;
     [SerializeField, ReadOnly()] private AnimatorStateInfo currentAnimState;
@@ -37,17 +39,21 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
     public const string HURTED_TRIGGER = "hurted";
     public const string DOWN_TRIGGER = "down";
 
-    public enum AnimState
-    {
-        Still,
-        Attack,
-        Hurted,
-        Down,
-    }
+    [Header("Audio")]
+    [SerializeField] protected AudioSource audioSource;
+    [SerializeField] protected AudioSource audioSourceWalking;
+    [SerializeField] private AudioClip audioDown;
+    [SerializeField] private AudioClip[] audioHurted;
+    [SerializeField] private AudioClip[] audioAttack;
+    [SerializeField] private AudioClip[] audioHeavyAttack;
+    [SerializeField] private AudioClip[] audioAttackHitted;
+
 
     protected virtual void Start()
     {
         Init();
+
+        audioSourceWalking.pitch = Random.Range(0.8f, 1.2f);
     }
 
     protected virtual void Init() // Called on start
@@ -64,14 +70,17 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
             if (currentAnimState.IsName(DOWN_TRIGGER))
             {
                 animState = AnimState.Down;
+                lastAttackSoundClip = "down";
             }
             else if (currentAnimState.IsName(HURTED_TRIGGER))
             {
                 animState = AnimState.Hurted;
+                lastAttackSoundClip = "hurted";
             }
             else if (currentAnimState.IsName(IDLE_ANIM) || currentAnimState.IsName(RUN_ANIM))
             {
                 animState = AnimState.Still;
+                lastAttackSoundClip = "still";
             }
             else
             {
@@ -80,7 +89,7 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
         }
     }
 
-    public virtual void Dead()
+    public virtual void Down()
     {
         animator.SetBool(DOWN_TRIGGER, true);
     }
@@ -93,39 +102,91 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
         {
             // DEAD confirmation to be sure
             life = -555f;
-            Dead();
+            Down();
             return;
         }
 
         life -= value;
         Debug.Log($"{transform.name} took damages: {value} -> life: {life}");
 
-        if(animator)
+        PlaySound(audioHurted, Random.Range(0.7f, 1.2f));
+
+        if (animator)
         {
             animator.SetTrigger(HURTED_TRIGGER);
 
-            bool dead = life <= 0f;
-            if (dead)
+            bool isDown = life <= 0f;
+            if (isDown)
             {
-                Dead();
-                Debug.Log($"{transform.name} is DEAD");
+                Down();
+                Debug.Log($"{transform.name} is DOWN");
+
+                var seq = DOTween.Sequence(); //new Sequence()
+                seq.AppendInterval(0.2f);
+                seq.AppendCallback(() => PlaySound(audioDown, Random.Range(0.25f, 0.75f)));
             }
 
-            animator.SetBool(DOWN_TRIGGER, dead);
-            if (col) col.enabled = !dead;
+            animator.SetBool(DOWN_TRIGGER, isDown);
+            if (col) col.enabled = !isDown;
 
             tweenDamage?.Complete();
             tweenDamage = animator.transform.DOShakePosition(0.35f, new Vector3(0.07f, 0f, 0f), vibrato: 2000, randomness:0, fadeOut:false);
         }
     }
 
+    public void PlaySound(AudioClip[] soundArray, float volume = 1f)
+    {
+        if (audioSource && soundArray != null)
+        {
+            AudioClip sound = soundArray[Random.Range(0, soundArray.Length - 1)];
+
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
+            audioSource.PlayOneShot(sound, volume);
+        }
+    }
+
+    public void PlaySound(AudioClip sound, float volume = 1f)
+    {
+        if (audioSource && sound)
+        {
+            audioSource.PlayOneShot(sound, volume);
+        }
+    }
+
+    public void PlayHitSound() // Called from Hitbox
+    {
+        //Debug.Log($"{transform.name} hit landed");
+        PlaySound(audioAttackHitted, Random.Range(0.25f, 0.5f));
+    }
+
     public bool Attack()
     {
+        if(GameManager.instance && GameManager.instance.InMenu)
+        {
+            return false;
+        }
+
         if(animState == AnimState.Hurted)
         {
             // Cannot attack
             return false;
         }
+
+        bool canPlaySound = true;
+        AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
+        foreach(AnimatorClipInfo clip in clipInfo)
+        {
+            if(clip.clip)
+            {
+                canPlaySound = lastAttackSoundClip != clip.clip.name;
+                if(canPlaySound) Debug.Log($"Got clip: {clip.clip.name} - w: {clip.weight} -> Before: {lastAttackSoundClip}");
+
+                lastAttackSoundClip = clip.clip.name;
+                break;
+            }
+        }
+
+        if(canPlaySound) PlaySound(audioAttack, Random.Range(0.3f, 0.7f));
 
         if (animator)
         {
@@ -145,6 +206,22 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
 
         Debug.Log("Heavy attack!");
 
+        bool canPlaySound = true;
+        AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
+        foreach (AnimatorClipInfo clip in clipInfo)
+        {
+            if (clip.clip)
+            {
+                canPlaySound = lastAttackSoundClip != clip.clip.name;
+                if (canPlaySound) Debug.Log($"Got clip: {clip.clip.name} - w: {clip.weight} -> Before: {lastAttackSoundClip}");
+
+                lastAttackSoundClip = clip.clip.name;
+                break;
+            }
+        }
+
+        if (canPlaySound) PlaySound(audioAttack, Random.Range(0.6f, 1.0f));
+
         if (animator)
         {
             animator.SetTrigger("attackHeavy");
@@ -153,4 +230,11 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
         return true;
 
     }
+}
+public enum AnimState
+{
+    Still,
+    Attack,
+    Hurted,
+    Down,
 }

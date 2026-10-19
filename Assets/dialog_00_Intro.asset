@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a182d739c2d144980a494ec3bd0d42, type: 3}
+  m_Name: dialog_00_Intro
+  m_EditorClassIdentifier: Assembly-CSharp::DialogData
+  array:
+  - speakerNameFr: 
+    speakerNameEn: 
+    speakerStyle: 
+    sprite: {fileID: 0}
+    dialogFr: "Viens voir, viens voir! Regarde \xE7a!"
+    dialogEn: Come here, come here! Look at that!
+    dialEvent: 0
+  - speakerNameFr: Petite soeur
+    speakerNameEn: Little sister
+    speakerStyle: a
+    sprite: {fileID: 0}
+    dialogFr: Oh waOOOw, qu'est-ce qu'est?!
+    dialogEn: Oh waOOOw, what is that?!
+    dialEvent: 0
+  - speakerNameFr: "Grand fr\xE8re"
+    speakerNameEn: Older brother
+    speakerStyle: b
+    sprite: {fileID: 0}
+    dialogFr: Une <b>Vieille Machine</b>, elle a l'air si ancienne!
+    dialogEn: A piece of <b>Old Tech</b>, it looks so ancient!
+    dialEvent: 0
+  - speakerNameFr: "Grand fr\xE8re"
+    speakerNameEn: Older brother
+    speakerStyle: b
+    sprite: {fileID: 0}
+    dialogFr: "Elle date de quand la France \xE9tait encore une d\xE9mocratie, \xE7a fait si longtemps."
+    dialogEn: It dates from back when France was still a democracy, that was such a long time ago.
+    dialEvent: 0
+  - speakerNameFr: Petite soeur
+    speakerNameEn: Little sister
+    speakerStyle: a
+    sprite: {fileID: 0}
+    dialogFr: "Une D\xE9mocratie? Ca \xE0 l'air si bien, tu crois que l'on pourra voter un jour?"
+    dialogEn: "A democracy? That sounds so good, do you think we\u2019ll ever be able to vote?"
+    dialEvent: 0
+  - speakerNameFr: "Grand fr\xE8re"
+    speakerNameEn: Older brother
+    speakerStyle: b
+    sprite: {fileID: 0}
+    dialogFr: "Rha j'esp\xE8re bien un jour, allez on va voir si elle s'allume toujours\\n*bip buuup* *son de d\xE9marrage*"
+    dialogEn: "Eh, I really hope so, alright, let\u2019s see if it still turns on.\\n*beep boop* *startup sound*"
+    dialEvent: 0

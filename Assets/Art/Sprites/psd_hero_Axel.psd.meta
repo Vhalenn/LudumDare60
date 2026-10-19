@@ -1,0 +1,470 @@
+fileFormatVersion: 2
+guid: e84d378cadf21f24584c22c844e19891
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2093565734121374606
+    second: psd_hero_Axel_0
+  - first:
+      213: -6544078654526104246
+    second: psd_hero_Axel_1
+  - first:
+      213: -7312287224302330671
+    second: psd_hero_Axel_2
+  - first:
+      213: 1038837267030869659
+    second: psd_hero_Axel_3
+  - first:
+      213: -7722483652037945204
+    second: psd_hero_Axel_4
+  - first:
+      213: 2559709665184458888
+    second: psd_hero_Axel_5
+  - first:
+      213: -8097067355667086442
+    second: psd_hero_Axel_6
+  - first:
+      213: 7661331702771641954
+    second: psd_hero_Axel_7
+  - first:
+      213: -1036992354842188968
+    second: psd_hero_Axel_8
+  - first:
+      213: 3257130628482624533
+    second: psd_hero_Axel_9
+  - first:
+      213: -4870244047885075161
+    second: psd_hero_Axel_10
+  - first:
+      213: 2046908077354183660
+    second: psd_hero_Axel_11
+  - first:
+      213: 8767254412769311951
+    second: psd_hero_Axel_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: psd_hero_Axel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 811
+        width: 674
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cf3c79e0922f2e0800000000000000
+      internalID: -2093565734121374606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1015
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d51ceb223ce25a0800000000000000
+      internalID: -6544078654526104246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1015
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc15dbf289858a90800000000000000
+      internalID: -7312287224302330671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1015
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9600d88df0ba6e00800000000000000
+      internalID: 1038837267030869659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1015
+        width: 32
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c885480b80a34d490800000000000000
+      internalID: -7722483652037945204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1015
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8882479e06ae58320800000000000000
+      internalID: 2559709665184458888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1015
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6934d0fd32071af80800000000000000
+      internalID: -8097067355667086442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_7
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1015
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e642a9794825a60800000000000000
+      internalID: 7661331702771641954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_8
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1015
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853e5de82fcdb91f0800000000000000
+      internalID: -1036992354842188968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_9
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1015
+        width: 47
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c60c1bc07a33d20800000000000000
+      internalID: 3257130628482624533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 696
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d795497da696cb0800000000000000
+      internalID: -4870244047885075161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 186
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebe2962d04186c10800000000000000
+      internalID: 2046908077354183660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: psd_hero_Axel_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 7
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc3790007b8ba970800000000000000
+      internalID: 8767254412769311951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      psd_hero_Axel_0: -2093565734121374606
+      psd_hero_Axel_1: -6544078654526104246
+      psd_hero_Axel_10: -4870244047885075161
+      psd_hero_Axel_11: 2046908077354183660
+      psd_hero_Axel_12: 8767254412769311951
+      psd_hero_Axel_2: -7312287224302330671
+      psd_hero_Axel_3: 1038837267030869659
+      psd_hero_Axel_4: -7722483652037945204
+      psd_hero_Axel_5: 2559709665184458888
+      psd_hero_Axel_6: -8097067355667086442
+      psd_hero_Axel_7: 7661331702771641954
+      psd_hero_Axel_8: -1036992354842188968
+      psd_hero_Axel_9: 3257130628482624533
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

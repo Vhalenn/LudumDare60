@@ -1,0 +1,1030 @@
+fileFormatVersion: 2
+guid: 734e8a6a94899c9469d4cfbb1a061d43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5768875439017779679
+    second: enemy_Big-Ben_0
+  - first:
+      213: 1390394628626552995
+    second: enemy_Big-Ben_1
+  - first:
+      213: 2899086459204475580
+    second: enemy_Big-Ben_2
+  - first:
+      213: 4993614322062150863
+    second: enemy_Big-Ben_3
+  - first:
+      213: 9017081881086877477
+    second: enemy_Big-Ben_4
+  - first:
+      213: -3570705666351625757
+    second: enemy_Big-Ben_5
+  - first:
+      213: -302015955289731994
+    second: enemy_Big-Ben_6
+  - first:
+      213: 8745262810687611357
+    second: enemy_Big-Ben_7
+  - first:
+      213: 1951005274715077749
+    second: enemy_Big-Ben_8
+  - first:
+      213: -7233683992951440308
+    second: enemy_Big-Ben_9
+  - first:
+      213: -9127989863940508815
+    second: enemy_Big-Ben_10
+  - first:
+      213: -32779397921453068
+    second: enemy_Big-Ben_11
+  - first:
+      213: 8218820975071919119
+    second: enemy_Big-Ben_12
+  - first:
+      213: 8326678615039386131
+    second: enemy_Big-Ben_13
+  - first:
+      213: -5320565018394902362
+    second: enemy_Big-Ben_14
+  - first:
+      213: 8726225917415273677
+    second: enemy_Big-Ben_15
+  - first:
+      213: 8315367472741655584
+    second: enemy_Big-Ben_16
+  - first:
+      213: 8036116708017261933
+    second: enemy_Big-Ben_17
+  - first:
+      213: 78474899095814430
+    second: enemy_Big-Ben_18
+  - first:
+      213: 9211056697798007524
+    second: enemy_Big-Ben_19
+  - first:
+      213: 8604331222329590515
+    second: enemy_Big-Ben_20
+  - first:
+      213: -5091485679112421745
+    second: enemy_Big-Ben_21
+  - first:
+      213: 6264281627470937784
+    second: enemy_Big-Ben_22
+  - first:
+      213: 7534559508026536172
+    second: enemy_Big-Ben_23
+  - first:
+      213: 2360992904895238548
+    second: enemy_Big-Ben_24
+  - first:
+      213: -5112226704545283398
+    second: enemy_Big-Ben_25
+  - first:
+      213: 1843447953109874773
+    second: enemy_Big-Ben_26
+  - first:
+      213: -2284467074126017684
+    second: enemy_Big-Ben_27
+  - first:
+      213: 4553062882152877527
+    second: enemy_Big-Ben_28
+  - first:
+      213: -5314828587124527717
+    second: enemy_Big-Ben_29
+  - first:
+      213: 2630415759199247284
+    second: enemy_Big-Ben_30
+  - first:
+      213: -1440641382487961443
+    second: enemy_Big-Ben_31
+  - first:
+      213: -6957920390263605268
+    second: enemy_Big-Ben_32
+  - first:
+      213: -3598223252143204984
+    second: enemy_Big-Ben_33
+  - first:
+      213: -2657543759976907436
+    second: enemy_Big-Ben_34
+  - first:
+      213: -5469943582530593276
+    second: enemy_Big-Ben_35
+  - first:
+      213: -3141348240056412856
+    second: enemy_Big-Ben_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 51
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_Big-Ben_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 324
+        width: 48
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21d9d6050b53284fa1068167cf1cba5
+      internalID: -1961424125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 324
+        width: 48
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3329d86f4d7301646a0d802fec732972
+      internalID: -399607677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 324
+        width: 73
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad2c33c1eddb6c418097f48dccc7c21
+      internalID: -656890426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 324
+        width: 48
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95866a21ace1dbd4eac0126d9a830ee1
+      internalID: -1108356640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 324
+        width: 48
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e714418efa645524bb2f94cf28e6ee7d
+      internalID: 1457012276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_6
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 288
+        width: 24
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d7edc98b6489a4fb88836083ba4dcd
+      internalID: 1544997346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 240
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d7c91612b711f41be5a1223b8f1f50
+      internalID: -1137795466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 240
+        width: 47
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd150d8973b2574e950b34f12011c3a
+      internalID: 1511918125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 240
+        width: 59
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394ce8ba76ebb694b915199f74724350
+      internalID: -2002158456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 240
+        width: 58
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4520db807b002234ba4a15152236b453
+      internalID: 194634606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 66
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c9969554be7b84c8ea0776ea3dc682
+      internalID: 707439588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 65
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0c51266ff26aa40b5229e85b6d557a
+      internalID: -853731609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_13
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 240
+        width: 47
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16020701d51442c408ae4dd9c65a7802
+      internalID: 1170899548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 144
+        width: 48
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e622c2b86ca8d2c43b453a0d989c37d4
+      internalID: -1280720050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 90
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6459c89a54361f8478aa48812b9040b4
+      internalID: -1577461734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 144
+        width: 69
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af489d2aba7882a469ad268a9a45a971
+      internalID: 2128381982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 147
+        width: 83
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00f6f21b0b9b484d91a8a9af6ded994
+      internalID: -146414629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 147
+        width: 79
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2a6d0a78ac0ae4181142034d21f867
+      internalID: -1339224587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 48
+        width: 66
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ff7efade52b374ca1571a56a3908c7
+      internalID: -256174373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 66
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c13073c0a6112246a14dd4df2efe9e6
+      internalID: 598173600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 59
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8a472a2be15d9499cdc4e3a5b9669f
+      internalID: -1746476048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 48
+        width: 46
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267fb9b82bc66754fab7e5640a1532ae
+      internalID: 1142505851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_23
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 48
+        width: 73
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb883f009eb72d48be8b30beff23878
+      internalID: -1477881530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ea6752989423b44a1141ebe9e59f9e
+      internalID: 1750922906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_26
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 13
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d469d27ad69439042ab6c92bf889b690
+      internalID: 245888273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_27
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 12
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386c445583b14264a81b0c6338a11516
+      internalID: -1124600122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 12
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26931a2378d32954abd69183c1b32c8a
+      internalID: -783148133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_29
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 12
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52719b7fd430d84dab2541b5f92225b
+      internalID: 477110780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 12
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d36aae09af3c5742ae1a3dff5d2b374
+      internalID: 1976483786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_33
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 12
+        width: 4
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d790fc2729d78948bb4a55b83022f81
+      internalID: -628875920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_34
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 12
+        width: 32
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d92dbe43d911548bec55d1ea30b736
+      internalID: -1207373715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 12
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb6b2ee55943b241be8c01c5a281831
+      internalID: 33176772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_36
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 12
+        width: 64
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f739bcebb8a8a418aa341767ada2d1
+      internalID: -1165448359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Big-Ben_24
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 12
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6749da71ee31645bcf66c798719c0c
+      internalID: 446763491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3adcad2a6980e7244abb386e47c6bf26
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.019999999552965164},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      enemy_Big-Ben_0: -1961424125
+      enemy_Big-Ben_1: -399607677
+      enemy_Big-Ben_10: 194634606
+      enemy_Big-Ben_11: 707439588
+      enemy_Big-Ben_12: -853731609
+      enemy_Big-Ben_13: 1170899548
+      enemy_Big-Ben_14: -1280720050
+      enemy_Big-Ben_15: -1577461734
+      enemy_Big-Ben_16: 2128381982
+      enemy_Big-Ben_17: -146414629
+      enemy_Big-Ben_18: -1339224587
+      enemy_Big-Ben_19: -256174373
+      enemy_Big-Ben_2: -656890426
+      enemy_Big-Ben_20: 598173600
+      enemy_Big-Ben_21: -1746476048
+      enemy_Big-Ben_22: 1142505851
+      enemy_Big-Ben_23: -1477881530
+      enemy_Big-Ben_24: 446763491
+      enemy_Big-Ben_25: 1750922906
+      enemy_Big-Ben_26: 245888273
+      enemy_Big-Ben_27: -1124600122
+      enemy_Big-Ben_28: -783148133
+      enemy_Big-Ben_29: 477110780
+      enemy_Big-Ben_3: -1852640020
+      enemy_Big-Ben_30: 1753129315
+      enemy_Big-Ben_31: -4010412
+      enemy_Big-Ben_32: 1976483786
+      enemy_Big-Ben_33: -628875920
+      enemy_Big-Ben_34: -1207373715
+      enemy_Big-Ben_35: 33176772
+      enemy_Big-Ben_36: -1165448359
+      enemy_Big-Ben_4: -1108356640
+      enemy_Big-Ben_5: 1457012276
+      enemy_Big-Ben_6: 1544997346
+      enemy_Big-Ben_7: -1137795466
+      enemy_Big-Ben_8: 1511918125
+      enemy_Big-Ben_9: -2002158456
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

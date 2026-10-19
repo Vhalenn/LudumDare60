@@ -686,12 +686,12 @@ TextureImporter:
       name: fence_broken
       rect:
         serializedVersion: 2
-        x: 192
-        y: 204
-        width: 39
-        height: 65
+        x: 182
+        y: 202
+        width: 53
+        height: 67
       alignment: 9
-      pivot: {x: 0.5, y: 0.05}
+      pivot: {x: 0.5, y: 0.09107265}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

@@ -15,31 +15,50 @@ MonoBehaviour:
   array:
   - speakerNameFr: Ministre
     speakerNameEn: Minister
+    speakerStyle: 
     sprite: {fileID: 1667072909, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
     dialogFr: "Bouah ha ha, regardez vous! Vous \xEAtes ridicules, vous faites honte \xE0 la R\xE9publique!"
-    dialogEn: 
+    dialogEn: "Buah ha ha, look at yourselves! You\u2019re ridiculous, you\u2019re an embarrassment to the Republic!"
     dialEvent: 0
   - speakerNameFr: Professeur
     speakerNameEn: Teacher
+    speakerStyle: 
     sprite: {fileID: 1142424706, guid: e19bc265341249f4a907cf8084585009, type: 3}
-    dialogFr: "Grosse cuve \xE0 pisse, vous \xEAtes allez bien trop loin cette fois! Frapper des enfants!\\n Il est temps de sauver la d\xE9mocratie!"
-    dialogEn: 
+    dialogFr: "Grosse cuve \xE0 pisse, vous \xEAtes allez bien trop loin cette fois! Frapper des enfants!\\n Il est temps de sauver notre d\xE9mocratie!"
+    dialogEn: "Cesspool of piss, you\u2019ve gone way too far this time! Hitting children! It\u2019s time to save our democracy!"
     dialEvent: 0
   - speakerNameFr: Ministre
     speakerNameEn: Minister
+    speakerStyle: 
     sprite: {fileID: 1667072909, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
     dialogFr: "Qu'est-ce que vous allez faire?! Me mettre un bracelet \xE9l\xE9ctronique? Hahaha"
-    dialogEn: 
+    dialogEn: What are you going to do?! Put an ankle bracelet on me? Hahaha
     dialEvent: 0
   - speakerNameFr: Ministre
     speakerNameEn: Minister
+    speakerStyle: 
     sprite: {fileID: 1667072909, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
-    dialogFr: "Notre PROJET est bien plus grand! Nous allons controller le pr\xE9sent, futur et pass\xE9!"
-    dialogEn: 
+    dialogFr: Notre PROJET est bien plus grand que ce que tu peux immaginer!
+    dialogEn: Our PROJECT is much bigger than you can imagine!
     dialEvent: 0
   - speakerNameFr: Ministre
     speakerNameEn: Minister
+    speakerStyle: 
     sprite: {fileID: 1667072909, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
-    dialogFr: '*bip boup buuuup*\nVite Emmanuel Saute dans le portail!!!!'
-    dialogEn: 
+    dialogFr: "Tant pis! Si nous ne pouvons pas dominer le pr\xE9sent, nous allons chang\xE9 le pass\xE9!"
+    dialogEn: If we cannot dominate the present, we shall change the past!!!
+    dialEvent: 0
+  - speakerNameFr: Ministre
+    speakerNameEn: Minister
+    speakerStyle: 
+    sprite: {fileID: 1667072909, guid: fb0e688d6aba4c84d8c327f1bbad876b, type: 3}
+    dialogFr: '*bip boup buuuup*\nMaintenaaant Manu Saute dans le portail!!!!'
+    dialogEn: '*beep boop beeeep*\nNoooow, Manu! Jump into the portal!!!!'
+    dialEvent: 0
+  - speakerNameFr: Ministre
+    speakerNameEn: Minister
+    speakerStyle: 
+    sprite: {fileID: 8767254412769311951, guid: e84d378cadf21f24584c22c844e19891, type: 3}
+    dialogFr: "A bient\xF4t en 1789!"
+    dialogEn: See you in 1789!
     dialEvent: 2

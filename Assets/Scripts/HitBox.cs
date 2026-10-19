@@ -68,6 +68,7 @@ public class HitBox : SerializedMonoBehaviour
 
                     // Do damage
                     hitBox.receiver.TakeDamages(damageInflicted, dir);
+                    receiver.PlayHitSound(); // Sound effet from the Punch/Kick
                 }
 
             }

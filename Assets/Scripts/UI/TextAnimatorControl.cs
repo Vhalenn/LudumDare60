@@ -22,6 +22,8 @@ public class TextAnimatorControl : MonoBehaviour
         HideText();
     }
 
+    // States
+
     public void ShowText(string text)
     {
         if (textAnimator) textAnimator.SetText(text);
@@ -49,5 +51,30 @@ public class TextAnimatorControl : MonoBehaviour
             typeWritter.StartDisappearingText();
             typeWritter.SkipTypewriter();
         }
+    }
+
+    // Utility
+    public void EndTyping()
+    {
+        if (typeWritter)
+        {
+            typeWritter.SkipTypewriter();
+        }
+    }
+
+    [Button]
+    private void IsTypingDebug()
+    {
+        Debug.Log($"IsTyping() -> {IsTyping()}");
+    }
+
+    public bool IsTyping()
+    {
+        if (typeWritter)
+        {
+            return typeWritter.IsShowingText;
+        }
+
+        return false;
     }
 }

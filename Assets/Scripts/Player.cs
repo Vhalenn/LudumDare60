@@ -20,15 +20,6 @@ public class Player : MovingEntity
     [SerializeField] private Vector3 lastSafePos;
     [SerializeField] private List<TriggerSafeZone> safeAreaList;
 
-    [Header("Sound")]
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioSource audioSourceWalking;
-    [SerializeField] private AudioSource audioSourceGift;
-    [SerializeField] private AudioClip stepSound;
-    [SerializeField] private AudioClip takeGiftSound;
-    [SerializeField] private AudioClip talkSound;
-
-
     [Header("Storage")]
     [SerializeField] private Vector3 desiredVelocity;
     [SerializeField] private Vector3 velocity;
@@ -75,12 +66,12 @@ public class Player : MovingEntity
 
             //velocity.y = rb2.linearVelocity.y;
         }
-
+        
         if(audioSourceWalking)
         {
             audioSourceWalking.volume = Mathf.Lerp(audioSourceWalking.volume, isNotMoving ? 0f : 1f, 0.33f);
         }
-
+        
         if(animator)
         {
             animator.SetFloat("run", isNotMoving ? 0f : 1f);
@@ -126,7 +117,7 @@ public class Player : MovingEntity
 
     #endregion Attack
 
-    public override void Dead()
+    public override void Down()
     {
         worldManager.LooseGame();
     }

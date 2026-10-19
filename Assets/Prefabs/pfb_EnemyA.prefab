@@ -43,9 +43,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: ab55ec46bcb1c5347aef76070484b162, type: 3}
+  m_Resource: {fileID: 8300000, guid: f6e07c37bf1eb724fb0f8bb57bd33da0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1.1019261e-19
+  m_Volume: 0.07
   m_Pitch: 0.9
   Loop: 1
   Mute: 0
@@ -89,7 +89,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.898
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -348,6 +348,18 @@ MonoBehaviour:
   life: 0
   animator: {fileID: 2537751779405776380}
   animState: 0
+  audioSource: {fileID: 5731749867051840767}
+  audioSourceWalking: {fileID: 2542819470930672125}
+  audioDown: {fileID: 8300000, guid: dd01105ff01263c4b8a4b7eedf0fc0cf, type: 3}
+  audioHurted:
+  - {fileID: 8300000, guid: c3ee5a5fc213ec54f89126ea6bc00e0b, type: 3}
+  - {fileID: 8300000, guid: 1c6248969246205439f985ef2fe477af, type: 3}
+  - {fileID: 8300000, guid: dd1ac2f4c62a82c40965173ee4192337, type: 3}
+  audioAttack:
+  - {fileID: 0}
+  audioHeavyAttack: []
+  audioAttackHitted:
+  - {fileID: 8300000, guid: 057efec17875fd74588a9b60cb786aa9, type: 3}
   player: {fileID: 0}
   active: 1
   posDiff: {x: 0, y: 0}

@@ -3,6 +3,7 @@ using Sirenix.OdinInspector;
 
 public class Enemy : MovingEntity
 {
+    [Header("Enemy specific")]
     [SerializeField] protected Player player;
     [SerializeField] private bool active = true; // For now, maybe disable for optimization
     [SerializeField, ReadOnly()] private Vector2 posDiff; // For now, maybe disable for optimization
@@ -117,6 +118,11 @@ public class Enemy : MovingEntity
 
         if(isMoving) rb2.linearVelocity = posDiff.normalized * -moveSpeed * deltaTime;
         else rb2.linearVelocity = Vector2.zero; ;
+
+        if (audioSourceWalking)
+        {
+            audioSourceWalking.volume = Mathf.Lerp(audioSourceWalking.volume, !isMoving ? 0f : 1f, 0.33f);
+        }
 
         if (animator)
         {
