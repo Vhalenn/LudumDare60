@@ -34,7 +34,10 @@ public class Enemy : MovingEntity
     {
         base.Init();
 
-        if(worldManager)
+        destroyed = false; // Be sure this is not off
+        destroyedEndAnim = false; // Be sure this is not off
+
+        if (worldManager)
         {
             player = worldManager.Player;
         }
@@ -58,9 +61,39 @@ public class Enemy : MovingEntity
     {
         base.Update();
 
-        if (!active) return;
+        if (!active)
+        {
+            return;
+        }
 
-        if(animator.gameObject.TryGetComponent(out SpriteRenderer sp))
+        // Code copied from props
+        if (destroyedEndAnim)
+        {
+            //animator.SetTrigger(HURTED_TRIGGER);
+            animator.SetBool(DOWN_TRIGGER, true);
+            return;
+        }
+
+        if (destroyed)
+        {
+            // override anim
+            animator.SetBool(DOWN_TRIGGER, destroyedTime > 0.9f);
+            if(destroyedTime < 0.9f) animator.SetTrigger(HURTED_TRIGGER);
+
+            destroyedTime += Time.deltaTime;
+            rb2.position = startPos + (Vector3.up * posYCurve.Evaluate(destroyedTime) * randomForce) + (Vector3.right * dir.x * posXCurve.Evaluate(destroyedTime) * randomForce);
+
+            if (destroyedTime > 1.0f)
+            {
+                //if (col) col.enabled = false;
+                destroyedEndAnim = true; // END
+            }
+
+            return;
+        }
+        // END - Code copied from props
+
+        if (animator.gameObject.TryGetComponent(out SpriteRenderer sp))
         {
             sp.color = animState == AnimState.Hurted ? Color.white * 1.3f : Color.white;
             animator.transform.localPosition = animState == AnimState.Hurted ? Vector3.right * Random.value * 0.15f : Vector3.zero;
@@ -169,5 +202,22 @@ public class Enemy : MovingEntity
         {
             attackTime -= 0.25f; // Prevent attack just after
         }
+
+        // To store it for down anim
+        dir.x = dir.x > 0f ? 1f : -1f;
+        dir.y = 0f;
+        this.dir = dir;
+    }
+
+    public override void Down()
+    {
+        //base.Down();
+
+        // Not yet
+        animator.SetTrigger(HURTED_TRIGGER);
+        animator.SetBool(DOWN_TRIGGER, false);
+
+        startPos = rb2.position;
+        destroyed = true;
     }
 }

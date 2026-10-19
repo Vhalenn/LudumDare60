@@ -248,7 +248,7 @@ TextureImporter:
         serializedVersion: 2
         x: 707
         y: 197
-        width: 274
+        width: 275
         height: 488
       alignment: 9
       pivot: {x: 0.5, y: 0.41}
@@ -286,6 +286,248 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 423
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16037cd9f2b8ca14181d1e3c63e7aaa8
+      internalID: 1902952537545902544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 418
+        width: 74
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6030c7a08cd79e94fa63ac8a9bad9aa2
+      internalID: -275245356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_9
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 417
+        width: 77
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2be26e05a886d24fa5cc4f9345c0168
+      internalID: 1679276705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_10
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 424
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a1f54c91a3aa64da596df1a022dad4
+      internalID: -1397678246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 353
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6a5726c9769a74d82b3fc5039b6a64
+      internalID: -482300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_12
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 373
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ac2e194c7bd5246b7628693dfd9ef5
+      internalID: -1530360141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_13
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 364
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b076cb6df882e7640ac82ad8b7dadeb6
+      internalID: -1379622181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_14
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 358
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb9a93f33ef39649a156fc03a4bbd60
+      internalID: 866938113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 388
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a40fe620c544854aac4cd11c33b602b
+      internalID: -1834404226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_16
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 182
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ab134e6ded09842b87a62fe07b8623
+      internalID: 1607475468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enviro_Stage1_Buildings_17
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 222
+        width: 104
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882ad101c273f4346a0e1f9a2f0c40a3
+      internalID: -1087851048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -302,12 +544,22 @@ TextureImporter:
     nameFileIdTable:
       enviro_Stage1_Buildings_0: -2777678988319902002
       enviro_Stage1_Buildings_1: -5709172793190704378
+      enviro_Stage1_Buildings_10: -1397678246
+      enviro_Stage1_Buildings_11: -482300138
+      enviro_Stage1_Buildings_12: -1530360141
+      enviro_Stage1_Buildings_13: -1379622181
+      enviro_Stage1_Buildings_14: 866938113
+      enviro_Stage1_Buildings_15: -1834404226
+      enviro_Stage1_Buildings_16: 1607475468
+      enviro_Stage1_Buildings_17: -1087851048
       enviro_Stage1_Buildings_2: 4028299895476524905
       enviro_Stage1_Buildings_3: -5087681061355413194
       enviro_Stage1_Buildings_4: -4583289216471844491
       enviro_Stage1_Buildings_5: -4453638213860132450
       enviro_Stage1_Buildings_6: 1902952537545902544
       enviro_Stage1_Buildings_7: 464668405
+      enviro_Stage1_Buildings_8: -275245356
+      enviro_Stage1_Buildings_9: 1679276705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

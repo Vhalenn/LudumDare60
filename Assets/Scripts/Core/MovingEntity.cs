@@ -179,7 +179,7 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
             if(clip.clip)
             {
                 canPlaySound = lastAttackSoundClip != clip.clip.name;
-                if(canPlaySound) Debug.Log($"Got clip: {clip.clip.name} - w: {clip.weight} -> Before: {lastAttackSoundClip}");
+                //if(canPlaySound) Debug.Log($"Got clip: {clip.clip.name} - w: {clip.weight} -> Before: {lastAttackSoundClip}");
 
                 lastAttackSoundClip = clip.clip.name;
                 break;
@@ -213,7 +213,7 @@ public class MovingEntity : MonoBehaviour, IDamageReceiver
             if (clip.clip)
             {
                 canPlaySound = lastAttackSoundClip != clip.clip.name;
-                if (canPlaySound) Debug.Log($"Got clip: {clip.clip.name} - w: {clip.weight} -> Before: {lastAttackSoundClip}");
+                //if (canPlaySound) Debug.Log($"Got clip: {clip.clip.name} - w: {clip.weight} -> Before: {lastAttackSoundClip}");
 
                 lastAttackSoundClip = clip.clip.name;
                 break;

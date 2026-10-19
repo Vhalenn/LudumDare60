@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: 445537f4c9ae4f14e810a81d40608cc5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 51
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_walk_00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 180
+        width: 47
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c376bec489c4cf24e9e683514df73e4b
+      internalID: -1517601658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_walk_01
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 180
+        width: 39
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e835933094fcaf42988227c72018ade
+      internalID: 1212808068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_walk_02
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 180
+        width: 39
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec82cf4c1176784bbd378b6e4fd88e9
+      internalID: 183105725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_grabbed_00
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 180
+        width: 40
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0f15743ac11b84bbe039ec69b4ce70
+      internalID: -535150638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_grabbed_01
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 180
+        width: 43
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc5d4da446908c469cb668ad999d807
+      internalID: -2096212701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_hitted_00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 96
+        width: 46
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f579bed596ddccc4fab8f7aca1fddfdc
+      internalID: 1007329315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_hitted_01
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 55
+        height: 67
+      alignment: 9
+      pivot: {x: 0.19, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a6f7333d17f8f4bb88d453317970eb
+      internalID: -44736213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_dead_01
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 81
+        height: 21
+      alignment: 9
+      pivot: {x: 0.08, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a353a2274079ffe408c4948279eafdf2
+      internalID: -2057251471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 70
+        height: 31
+      alignment: 9
+      pivot: {x: 0.37, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e77002faf108764096f85718da2229e
+      internalID: -1436476920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 96
+        width: 40
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9660c994005c894a9d28e2d8448ac31
+      internalID: 780981704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 40
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e11cac6be74814db8d424f26c86367
+      internalID: -1461327146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 12
+        width: 32
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6e239eb38319440903a55105b09f9f
+      internalID: -1923944556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 12
+        width: 32
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583d375584571e9469c2766fa188649a
+      internalID: 2055470749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_punch_00
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 12
+        width: 69
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0069f997d44e3164a8eeb4bc95e91778
+      internalID: -350952098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Galsia_0
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 10
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d359c13b7add9d479758ae8690e5663
+      internalID: 1667072909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_Galsia_1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 76
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c01e3fc752346f429185398764e63a2
+      internalID: -1142604515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3adcad2a6980e7244abb386e47c6bf26
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.019999999552965164},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_10: -1461327146
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_11: -1923944556
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_12: 2055470749
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_8: -1436476920
+      Sega Genesis - Streets of Rage 2 - Enemies & Bosses - Galsia_9: 780981704
+      enemy_Galsia_0: 1667072909
+      enemy_Galsia_1: -1142604515
+      enemy_dead_01: -2057251471
+      enemy_grabbed_00: -535150638
+      enemy_grabbed_01: -2096212701
+      enemy_hitted_00: 1007329315
+      enemy_hitted_01: -44736213
+      enemy_punch_00: -350952098
+      enemy_walk_00: -1517601658
+      enemy_walk_01: 1212808068
+      enemy_walk_02: 183105725
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

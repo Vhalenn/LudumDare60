@@ -373,7 +373,25 @@ MonoBehaviour:
   attackTime: 0
   posXCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.9979565
+      outSlope: 3.9979565
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.078622274
+    - serializedVersion: 3
+      time: 1
+      value: 2
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -383,17 +401,17 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 4.9956617
-      outSlope: 4.9956617
+      inSlope: 6.897069
+      outSlope: 6.897069
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.042440318
+      outWeight: 0.08280614
     - serializedVersion: 3
       time: 0.5013298
-      value: 1
-      inSlope: -0.012386918
-      outSlope: -0.012386918
+      value: 1.4919755
+      inSlope: -0.016335726
+      outSlope: -0.016335726
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -401,11 +419,11 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.9986572
       value: -0.004337311
-      inSlope: -5.3634586
-      outSlope: -5.3634586
+      inSlope: -7.762892
+      outSlope: -7.762892
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.03740803
+      inWeight: 0.07665624
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
